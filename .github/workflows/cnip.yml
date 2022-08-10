@@ -1,14 +1,14 @@
 name: China IP list
 
 on: 
-  workflow_dispatch
+  #workflow_dispatch
   #push: 
   #   branches:
   #     - master
-  #watch:
-  #  types: started
-  #schedule:
-  #  - cron: 0/10 * * * *
+  watch:
+    types: started
+  schedule:
+    - cron: 1 1 * * *
 
 jobs:
   build:
