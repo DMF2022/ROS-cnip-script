@@ -15,25 +15,26 @@ https://github.com/kiddin9/china_ip_list
 
 
 /tool fetch url=https://raw.githubusercontent.com/DMF2022/ROS-cnip-script/main/CNIP.rsc
-#下载这个IP列表文件
 
 /system logging disable 0
-#临时关闭日志避免日志爆炸
 
 #/ip firewall address-list remove [find list="CNIP"]
-#先删掉旧列表避免重复，这个指令和脚本里面的重复了，注释掉了
 
 /import file-name=cnip.rsc
-#导入新列表
 
 /system logging enable 0
-#恢复日志正常输出
 
 :local CNIP [:len [/ip firewall address-list find list="CNIP"]]
-#查看当前列表数量
 
 /file remove [find name="cnip.rsc"]
-#删除IP列表文件
 
 :log info ("CNIP列表更新:"."$CNIP"."条规则")
+
+#下载这个IP列表文件
+#临时关闭日志避免日志爆炸
+#先删掉旧列表避免重复，这个指令和脚本里面的重复了，注释掉了
+#导入新列表
+#恢复日志正常输出
+#查看当前列表数量
+#删除IP列表文件
 #写入日志
