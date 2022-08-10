@@ -15,7 +15,7 @@ https://github.com/kiddin9/china_ip_list
 
 /ip firewall address-list remove [find list="CNIP"]
 
-/import file-name=cnip.rsc
+/import cnip.rsc
 
 /system logging enable 0
 
