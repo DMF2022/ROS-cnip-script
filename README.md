@@ -9,7 +9,7 @@ https://github.com/kiddin9/china_ip_list
 
 以下为ROS脚本：
 
-/tool fetch url=https://raw.githubusercontent.com/DMF2022/ROS-cnip-script/main/CNIP.rsc
+/tool fetch url=https://raw.githubusercontent.com/DMF2022/ROS-cnip-script/main/cnip.rsc
 
 /system logging disable 0
 
