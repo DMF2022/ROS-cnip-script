@@ -3,8 +3,8 @@ name: China IP list
 on: 
   #workflow_dispatch
    push: 
-     branches:
-       - master
+     branches: main
+  #     - master
   # watch:
   #  types: started
    schedule:
