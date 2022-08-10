@@ -5,27 +5,27 @@ on:
   # push: 
   #   branches:
   #     - master
-  watch:
-    types: started
+  #watch:
+  #  types: started
   schedule:
     - cron: 0/10 * * * *
 
 jobs:
   build:
-    if: github.event.repository.owner.id == github.event.sender.id
+   # if: github.event.repository.owner.id == github.event.sender.id
     runs-on: Ubuntu-20.04
 
     steps:
     - name: Checkout
       uses: actions/checkout@v2
-      with:
-        fetch-depth: 0
+   #   with:
+   #     fetch-depth: 0
 
-    - name: Set git identity
-      run : |
-        git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
-        git config --global user.name "github-actions[bot]"
-        sudo timedatectl set-timezone "Asia/Shanghai"
+   # - name: Set git identity
+   #   run : |
+   #     git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
+   #     git config --global user.name "github-actions[bot]"
+   #     sudo timedatectl set-timezone "Asia/Shanghai"
     - name: Combine
       run: |
         qqwry="$(curl -kLfsm 5 https://raw.githubusercontent.com/metowolf/iplist/master/data/special/china.txt)"
@@ -33,9 +33,9 @@ jobs:
         clang="$(curl -kLfsm 5 https://ispip.clang.cn/all_cn.txt)"
         iplist="$qqwry\n$ipipnet\n$clang"
         echo -e "${iplist}" | sort | uniq | sed -e 's/^/add address=/g' -e 's/$/ list=CNIP/g' | sed -e $'1i\\\n/ip firewall address-list' -e $'1i\\\nremove [/ip firewall address-list find list=CNIP]' -e $'1i\\\nadd address=10.0.0.0/8 list=CNIP comment=private-network' -e $'1i\\\nadd address=172.16.0.0/12 list=CNIP comment=private-network' -e $'1i\\\nadd address=192.168.0.0/16 list=CNIP comment=private-network'> cnip.rsc
-    - name: Apply
-      run: |
-        Emoji=("🎉" "🤞" "✨" "🎁" "🎈" "🎄" "🎨" "💋" "🍓" "🍕" "🍉" "💐" "🌴" "🚀" "🛸" "🗽" "⛅" "🌈" "🔥" "⛄" "🐶" "🏅" "🦄" "🐤")
-        git add .
-        git commit -m "${Emoji[$[$RANDOM % ${#Emoji[@]}]]} Sync $(date +%Y-%m-%d" "%H:%M:%S)"
-        git push -f
+   # - name: Apply
+   #   run: |
+   #     Emoji=("🎉" "🤞" "✨" "🎁" "🎈" "🎄" "🎨" "💋" "🍓" "🍕" "🍉" "💐" "🌴" "🚀" "🛸" "🗽" "⛅" "🌈" "🔥" "⛄" "🐶" "🏅" "🦄" "🐤")
+   #     git add .
+   #     git commit -m "${Emoji[$[$RANDOM % ${#Emoji[@]}]]} Sync $(date +%Y-%m-%d" "%H:%M:%S)"
+   #     git push -f
