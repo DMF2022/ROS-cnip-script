@@ -13,7 +13,7 @@ https://github.com/kiddin9/china_ip_list
 
 /system logging disable 0
 
-#/ip firewall address-list remove [find list="CNIP"]
+/ip firewall address-list remove [find list="CNIP"]
 
 /import file-name=cnip.rsc
 
