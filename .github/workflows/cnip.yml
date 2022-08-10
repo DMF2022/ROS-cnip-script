@@ -1,4 +1,4 @@
-name: China IP list
+name: ROS CNIP list
 
 on: 
   #workflow_dispatch
