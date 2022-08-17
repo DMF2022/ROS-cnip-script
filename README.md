@@ -5,13 +5,14 @@
 IP地址库搬运自[纯真库](https://raw.githubusercontent.com/metowolf/iplist/master/data/special/china.txt)，[ipip](https://raw.githubusercontent.com/17mon/china_ip_list/master/china_ip_list.txt)、[苍狼](https://ispip.clang.cn/all_cn.txt)三个IP列表，合并后加入ROS的导入命令制作而成。
 
 
->此列表仅包含IPV4地址，没有IPV6。
+>此列表仅包含IPV4地址，没有IPV6地址。
 
->自动修改为ROS脚本文件，每天凌晨1点更新。
+>自动修改为ROS命令脚本文件，不定期更新。
 
->导入时自动搜索当前名为“CNIP”的IP列表并删除，避免交错冲突
+>加了一条在导入前搜索当前名为“CNIP”的IP列表并删除的指令，避免出现新旧交叉冲突。
 
->增加了192 172 10三个内网网段到CN列表，避免本地网络走标记路由
+>增加了10.0.0.0/8，172.16.0.0/12，192.168.0.0/16三个内网网段到CN列表，避免本地网络和VPN网络走标记路由。
+
 
 附：ROS导入脚本
 
