@@ -516,7 +516,6 @@ add address=103.116.76.0/22 list=CNIP
 add address=103.116.76.0/24 list=CNIP
 add address=103.116.78.0/24 list=CNIP
 add address=103.116.92.0/22 list=CNIP
-add address=103.117.132.0/22 list=CNIP
 add address=103.117.136.0/22 list=CNIP
 add address=103.117.16.0/22 list=CNIP
 add address=103.117.16.0/24 list=CNIP
