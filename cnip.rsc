@@ -1534,7 +1534,6 @@ add address=103.212.0.0/20 list=CNIP
 add address=103.212.0.0/22 list=CNIP
 add address=103.212.1.0/24 list=CNIP
 add address=103.212.100.0/22 list=CNIP
-add address=103.212.104.0/22 list=CNIP
 add address=103.212.108.0/22 list=CNIP
 add address=103.212.12.0/22 list=CNIP
 add address=103.212.148.0/22 list=CNIP
@@ -5929,7 +5928,6 @@ add address=139.5.128.0/22 list=CNIP
 add address=139.5.160.0/22 list=CNIP
 add address=139.5.192.0/22 list=CNIP
 add address=139.5.204.0/22 list=CNIP
-add address=139.5.208.0/22 list=CNIP
 add address=139.5.212.0/22 list=CNIP
 add address=139.5.244.0/22 list=CNIP
 add address=139.5.56.0/21 list=CNIP
