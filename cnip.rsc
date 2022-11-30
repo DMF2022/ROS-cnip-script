@@ -4964,7 +4964,6 @@ add address=118.103.168.0/21 list=CNIP
 add address=118.103.168.0/22 list=CNIP
 add address=118.103.172.0/22 list=CNIP
 add address=118.103.176.0/22 list=CNIP
-add address=118.107.180.0/22 list=CNIP
 add address=118.112.0.0/13 list=CNIP
 add address=118.120.0.0/14 list=CNIP
 add address=118.124.0.0/15 list=CNIP
