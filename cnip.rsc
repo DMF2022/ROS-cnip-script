@@ -2252,7 +2252,6 @@ add address=103.239.0.0/22 list=CNIP
 add address=103.239.152.0/21 list=CNIP
 add address=103.239.152.0/22 list=CNIP
 add address=103.239.156.0/22 list=CNIP
-add address=103.239.176.0/22 list=CNIP
 add address=103.239.180.0/22 list=CNIP
 add address=103.239.184.0/22 list=CNIP
 add address=103.239.192.0/21 list=CNIP
@@ -10444,7 +10443,6 @@ add address=43.255.0.0/21 list=CNIP
 add address=43.255.0.0/22 list=CNIP
 add address=43.255.144.0/22 list=CNIP
 add address=43.255.16.0/22 list=CNIP
-add address=43.255.168.0/22 list=CNIP
 add address=43.255.176.0/22 list=CNIP
 add address=43.255.184.0/22 list=CNIP
 add address=43.255.192.0/22 list=CNIP
