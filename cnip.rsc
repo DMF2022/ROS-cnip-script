@@ -9223,6 +9223,7 @@ add address=223.122.4.0/22 list=CNIP
 add address=223.122.64.0/18 list=CNIP
 add address=223.122.8.0/21 list=CNIP
 add address=223.123.0.0/16 list=CNIP
+add address=223.123.128.0/17 list=CNIP
 add address=223.124.0.0/14 list=CNIP
 add address=223.128.0.0/15 list=CNIP
 add address=223.144.0.0/12 list=CNIP
