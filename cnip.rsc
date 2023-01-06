@@ -3540,6 +3540,8 @@ add address=103.65.164.0/22 list=CNIP
 add address=103.65.168.0/22 list=CNIP
 add address=103.65.172.0/22 list=CNIP
 add address=103.65.204.0/23 list=CNIP
+add address=103.65.206.0/23 list=CNIP
+add address=103.65.224.0/23 list=CNIP
 add address=103.65.36.0/22 list=CNIP
 add address=103.65.4.0/22 list=CNIP
 add address=103.65.40.0/22 list=CNIP
