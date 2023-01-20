@@ -2103,6 +2103,7 @@ add address=103.234.180.0/22 list=CNIP
 add address=103.234.20.0/22 list=CNIP
 add address=103.234.244.0/22 list=CNIP
 add address=103.234.56.0/22 list=CNIP
+add address=103.235.100.0/22 list=CNIP
 add address=103.235.128.0/20 list=CNIP
 add address=103.235.128.0/22 list=CNIP
 add address=103.235.132.0/22 list=CNIP
@@ -2991,6 +2992,7 @@ add address=103.43.110.0/24 list=CNIP
 add address=103.43.115.0/24 list=CNIP
 add address=103.43.118.0/24 list=CNIP
 add address=103.43.124.0/22 list=CNIP
+add address=103.43.132.0/22 list=CNIP
 add address=103.43.140.0/22 list=CNIP
 add address=103.43.16.0/22 list=CNIP
 add address=103.43.184.0/22 list=CNIP
