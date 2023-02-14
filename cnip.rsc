@@ -3867,7 +3867,9 @@ add address=103.84.0.0/22 list=CNIP
 add address=103.84.12.0/22 list=CNIP
 add address=103.84.136.0/22 list=CNIP
 add address=103.84.16.0/22 list=CNIP
+add address=103.84.170.0/23 list=CNIP
 add address=103.84.20.0/22 list=CNIP
+add address=103.84.204.0/23 list=CNIP
 add address=103.84.24.0/21 list=CNIP
 add address=103.84.24.0/22 list=CNIP
 add address=103.84.28.0/22 list=CNIP
