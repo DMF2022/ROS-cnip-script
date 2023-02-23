@@ -4049,6 +4049,7 @@ add address=103.92.86.0/24 list=CNIP
 add address=103.92.88.0/22 list=CNIP
 add address=103.93.0.0/21 list=CNIP
 add address=103.93.0.0/22 list=CNIP
+add address=103.93.142.0/23 list=CNIP
 add address=103.93.152.0/22 list=CNIP
 add address=103.93.180.0/22 list=CNIP
 add address=103.93.181.0/24 list=CNIP
