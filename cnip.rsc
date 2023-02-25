@@ -4123,6 +4123,7 @@ add address=103.96.208.0/21 list=CNIP
 add address=103.96.208.0/22 list=CNIP
 add address=103.96.212.0/22 list=CNIP
 add address=103.96.216.0/22 list=CNIP
+add address=103.96.224.0/23 list=CNIP
 add address=103.96.8.0/22 list=CNIP
 add address=103.96.80.0/22 list=CNIP
 add address=103.97.112.0/21 list=CNIP
