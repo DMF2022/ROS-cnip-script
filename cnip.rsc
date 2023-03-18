@@ -485,6 +485,7 @@ add address=103.116.120.0/22 list=CNIP
 add address=103.116.122.0/24 list=CNIP
 add address=103.116.128.0/22 list=CNIP
 add address=103.116.132.0/23 list=CNIP
+add address=103.116.138.0/23 list=CNIP
 add address=103.116.148.0/22 list=CNIP
 add address=103.116.184.0/22 list=CNIP
 add address=103.116.20.0/22 list=CNIP
