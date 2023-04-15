@@ -655,6 +655,7 @@ add address=103.132.188.0/22 list=CNIP
 add address=103.132.208.0/21 list=CNIP
 add address=103.132.208.0/22 list=CNIP
 add address=103.132.212.0/22 list=CNIP
+add address=103.132.22.0/23 list=CNIP
 add address=103.132.234.0/23 list=CNIP
 add address=103.132.60.0/22 list=CNIP
 add address=103.132.64.0/20 list=CNIP
