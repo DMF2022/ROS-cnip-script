@@ -2,7 +2,7 @@
 
 此列表代码搬运自[kiddin9/china_ip_list](https://github.com/kiddin9/china_ip_list)
 
-IP地址库搬运自[纯真库](https://raw.githubusercontent.com/metowolf/iplist/master/data/special/china.txt)，[ipip](https://raw.githubusercontent.com/17mon/china_ip_list/master/china_ip_list.txt)、[苍狼](https://ispip.clang.cn/all_cn.txt)三个IP列表，合并后加入ROS的导入命令制作而成。
+IP地址库搬运自~~[纯真库](https://raw.githubusercontent.com/metowolf/iplist/master/data/special/china.txt)，[ipip](https://raw.githubusercontent.com/17mon/china_ip_list/master/china_ip_list.txt)、~~[苍狼](https://ispip.clang.cn/all_cn.txt)~~三个~~IP列表，合并后加入ROS的导入命令制作而成。
 
 
 >此列表仅包含IPV4地址，没有IPV6地址。
