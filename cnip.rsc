@@ -690,6 +690,7 @@ add address=103.166.50.0/23 list=CNIP
 add address=103.166.52.0/22 list=CNIP
 add address=103.166.84.0/23 list=CNIP
 add address=103.167.0.0/23 list=CNIP
+add address=103.167.100.0/23 list=CNIP
 add address=103.167.36.0/23 list=CNIP
 add address=103.168.170.0/23 list=CNIP
 add address=103.168.98.0/23 list=CNIP
