@@ -1,8 +1,8 @@
 # ROS-cnip-script
 
-此列表代码搬运自[kiddin9/china_ip_list](https://github.com/kiddin9/china_ip_list)
+此列表代码及ip列表搬运自[kiddin9/china_ip_list](https://github.com/kiddin9/china_ip_list)
 
-IP地址搬运自[苍狼](https://ispip.clang.cn/all_cn_cidr.txt)CNIP cidr列表，加入ROS的导入命令制作而成。
+fork了https://github.com/DMF2022/ROS-cnip-script的action代码，使用合并ip解决苍狼ip的局限性，并加入ROS的导入命令制作而成。
 
 
 >此列表仅包含IPV4地址，没有IPV6地址。
@@ -21,7 +21,7 @@ IP地址搬运自[苍狼](https://ispip.clang.cn/all_cn_cidr.txt)CNIP cidr列表
 
 ###### 在/System Script下添加如下脚本内容
 ```
-/tool fetch url=https://raw.githubusercontent.com/DMF2022/ROS-cnip-script/main/cnip.rsc
+/tool fetch url=https://raw.githubusercontent.com/jiaoting/ROS-cnip-script/main/cnip.rsc
 /system logging disable 0
 /import cnip.rsc
 /system logging enable 0
