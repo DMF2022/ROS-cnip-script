@@ -2,9 +2,9 @@ name: ROS CNIP list
 
 on: 
   #workflow_dispatch
-  #push: 
-  #   branches:
-  #     - master
+  push: 
+     branches:
+       - master
   watch:
     types: started
   schedule:
