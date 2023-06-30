@@ -1,8 +1,6 @@
 # ROS-cnip-script
 
-此列表代码及ip列表搬运自[kiddin9/china_ip_list](https://github.com/kiddin9/china_ip_list)
-
-fork了[MF2022/ROS-cnip-script](https://github.com/DMF2022/ROS-cnip-script)的action代码，使用合并ip解决苍狼ip的局限性，并加入ROS的导入命令制作而成。
+此ip列表搬运自[kiddin9/china_ip_list](https://github.com/kiddin9/china_ip_list)，并在[MF2022/ROS-cnip-script](https://github.com/DMF2022/ROS-cnip-script)的基础上，增加了[Akamai-ASN-and-IPs-List](https://github.com/SecOps-Institute/Akamai-ASN-and-IPs-List)，使用合并ip解决国内分流无法覆盖的局限性（如某些厂商服务分流无法正常使用，比如联想应用商店，微软商店，微软更新等），并加入ROS的导入命令制作而成。
 
 
 >此列表仅包含IPV4地址，没有IPV6地址。
