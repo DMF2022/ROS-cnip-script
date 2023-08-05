@@ -330,7 +330,7 @@ add address=103.12.136.0/22 list=CNIP
 add address=103.12.184.0/22 list=CNIP
 add address=103.12.232.0/22 list=CNIP
 add address=103.12.32.0/22 list=CNIP
-add address=103.12.68.0/22 list=CNIP
+add address=103.12.68.0/23 list=CNIP
 add address=103.12.92.0/22 list=CNIP
 add address=103.12.98.0/23 list=CNIP
 add address=103.120.140.0/22 list=CNIP
@@ -2953,7 +2953,6 @@ add address=163.53.128.0/21 list=CNIP
 add address=163.53.136.0/22 list=CNIP
 add address=163.53.160.0/20 list=CNIP
 add address=163.53.188.0/22 list=CNIP
-add address=163.53.220.0/22 list=CNIP
 add address=163.53.240.0/22 list=CNIP
 add address=163.53.36.0/22 list=CNIP
 add address=163.53.40.0/21 list=CNIP
