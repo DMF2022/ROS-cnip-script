@@ -2,7 +2,7 @@
 
 此列表代码搬运自[kiddin9/china_ip_list](https://github.com/kiddin9/china_ip_list)
 
-IP地址搬运自[苍狼](https://ispip.clang.cn/all_cn_cidr.txt)CNIP列表，加入ROS的导入命令制作而成。
+IP地址搬运自[苍狼](https://ispip.clang.cn/)CNIP列表，加入ROS的导入命令制作而成。
 
 
 >此列表仅包含IPV4地址，没有IPV6地址。
