@@ -1,32 +1,18 @@
 name: ROS CNIP list
 
-on: 
-  #workflow_dispatch
-  #push: 
-  #   branches:
-  #     - master
-  watch:
-    types: started
+on:
   schedule:
-    - cron: * 5 * * *
+    - cron: "0 17 * * *"
+  workflow_dispatch:
 
 jobs:
   build:
-    if: github.event.repository.owner.id == github.event.sender.id || ! github.event.sender.id
-    runs-on: Ubuntu-20.04
+    runs-on: ubuntu-latest
 
     steps:
     - name: Checkout
-      uses: actions/checkout@v3
-      with:
-        fetch-depth: 0
-
-    - name: Set git identity
-      run : |
-        git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
-        git config --global user.name "github-actions[bot]"
-        sudo timedatectl set-timezone "Asia/Shanghai"
-        
+      uses: actions/checkout@v2
+     
     - name: Combine
       run: |
         echo -e "(curl -kLfsm 5 https://ispip.clang.cn/all_cn.txt)" | sort | uniq | sed -e 's/^/add address=/g' -e 's/$/ list=CNIP/g' | sed -e $'1i\\\n/ip firewall address-list' -e $'1i\\\nremove [/ip firewall address-list find list=CNIP]' list=CNIP'> cnip.rsc
