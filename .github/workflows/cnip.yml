@@ -2,7 +2,7 @@ name: ROS CNIP list
 
 on:
   schedule:
-    - cron: "0 17 * * *"
+    - cron: "0 58 * * *"
   workflow_dispatch:
 
 jobs:
