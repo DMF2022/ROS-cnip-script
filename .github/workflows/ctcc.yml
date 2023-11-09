@@ -23,7 +23,7 @@ jobs:
      
     - name: Combine
       run: |
-        clang="$(curl -kLfsm 5 https://ispip.clang.cn/ctcc.txt)"
+        clang="$(curl -kLfsm 5 https://ispip.clang.cn/chinatelecom.txt)"
         echo -e "${clang}" | sed -e 's/^/add address=/g' -e 's/$/ list=CTCC/g' | sed -e $'1i\\\n/ip firewall address-list' -e $'1i\\\nremove [find list=CTCC]' > ctcc.rsc
 
     - name: Apply
