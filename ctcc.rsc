@@ -302,6 +302,7 @@ add address=103.22.4.0/22 list=CTCC
 add address=103.22.8.0/22 list=CTCC
 add address=103.22.12.0/22 list=CTCC
 add address=103.22.16.0/22 list=CTCC
+add address=103.22.20.0/22 list=CTCC
 add address=103.22.24.0/22 list=CTCC
 add address=103.22.28.0/22 list=CTCC
 add address=103.22.32.0/22 list=CTCC
@@ -309,8 +310,12 @@ add address=103.22.36.0/22 list=CTCC
 add address=103.22.40.0/22 list=CTCC
 add address=103.22.44.0/22 list=CTCC
 add address=103.22.48.0/22 list=CTCC
+add address=103.22.52.0/22 list=CTCC
+add address=103.22.56.0/22 list=CTCC
 add address=103.22.60.0/22 list=CTCC
+add address=103.22.64.0/22 list=CTCC
 add address=103.22.68.0/22 list=CTCC
+add address=103.22.72.0/22 list=CTCC
 add address=103.22.76.0/22 list=CTCC
 add address=103.22.80.0/22 list=CTCC
 add address=103.22.84.0/22 list=CTCC
