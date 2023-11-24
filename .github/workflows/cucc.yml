@@ -2,7 +2,7 @@ name: ROS CUCC list
 
 on:
   schedule:
-    - cron: "00 21 * * *"
+    - cron: "00 21 * * 1"
   workflow_dispatch:
 
 jobs:
