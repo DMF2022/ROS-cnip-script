@@ -508,7 +508,6 @@ add address=116.244.0.0/15 list=CUCC
 add address=116.255.128.0/17 list=CUCC
 add address=117.8.0.0/13 list=CUCC
 add address=117.74.64.0/20 list=CUCC
-add address=117.75.0.0/16 list=CUCC
 add address=117.121.128.0/18 list=CUCC
 add address=118.26.48.0/21 list=CUCC
 add address=118.72.0.0/13 list=CUCC
@@ -557,7 +556,6 @@ add address=121.30.0.0/16 list=CUCC
 add address=121.31.0.0/16 list=CUCC
 add address=121.52.224.0/19 list=CUCC
 add address=121.55.0.0/18 list=CUCC
-add address=121.68.0.0/14 list=CUCC
 add address=121.100.128.0/17 list=CUCC
 add address=121.201.0.0/16 list=CUCC
 add address=122.13.0.0/16 list=CUCC
