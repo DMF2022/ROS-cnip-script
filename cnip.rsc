@@ -5926,6 +5926,7 @@ add address=123.99.128.0/17 list=CNIP
 add address=123.100.0.0/19 list=CNIP
 add address=123.101.0.0/16 list=CNIP
 add address=123.103.0.0/17 list=CNIP
+add address=123.108.88.0/23 list=CNIP
 add address=123.108.128.0/20 list=CNIP
 add address=123.108.208.0/20 list=CNIP
 add address=123.112.0.0/12 list=CNIP
