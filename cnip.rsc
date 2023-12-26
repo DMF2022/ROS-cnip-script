@@ -147,6 +147,7 @@ add address=36.37.40.0/21 list=CNIP
 add address=36.37.48.0/20 list=CNIP
 add address=36.40.0.0/13 list=CNIP
 add address=36.48.0.0/15 list=CNIP
+add address=36.50.226.0/23 list=CNIP
 add address=36.51.0.0/16 list=CNIP
 add address=36.56.0.0/13 list=CNIP
 add address=36.96.0.0/11 list=CNIP
