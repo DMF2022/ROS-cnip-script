@@ -276,6 +276,7 @@ add address=103.38.32.0/22 list=CUCC
 add address=103.38.40.0/22 list=CUCC
 add address=103.39.88.0/22 list=CUCC
 add address=103.40.12.0/22 list=CUCC
+add address=103.40.174.0/23 list=CUCC
 add address=103.40.192.0/22 list=CUCC
 add address=103.40.212.0/22 list=CUCC
 add address=103.43.100.0/22 list=CUCC
@@ -569,6 +570,7 @@ add address=123.4.0.0/14 list=CUCC
 add address=123.8.0.0/13 list=CUCC
 add address=123.58.240.0/20 list=CUCC
 add address=123.98.0.0/17 list=CUCC
+add address=123.108.88.0/23 list=CUCC
 add address=123.112.0.0/12 list=CUCC
 add address=123.128.0.0/13 list=CUCC
 add address=123.138.0.0/15 list=CUCC
