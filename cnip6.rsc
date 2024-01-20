@@ -520,6 +520,7 @@ add address=2401:7780::/32 list=CNIP
 add address=2401:77e0::/32 list=CNIP
 add address=2401:7820::/32 list=CNIP
 add address=2401:7880::/32 list=CNIP
+add address=2401:78e0::/32 list=CNIP
 add address=2401:7980::/32 list=CNIP
 add address=2401:7a00::/32 list=CNIP
 add address=2401:7a80::/32 list=CNIP
