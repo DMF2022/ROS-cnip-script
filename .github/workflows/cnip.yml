@@ -23,7 +23,7 @@ jobs:
      
     - name: Combine
       run: |
-        clang="$(curl -kLfsm 5 https://ispip.clang.cn/all_cn.txt)"
+        clang="$(curl -kLfsm 5 https://ispip.clang.cn/all_cn_cidr.txt)"
         echo -e "${clang}" | sed -e 's/^/add address=/g' -e 's/$/ list=CNIP/g' | sed -e $'1i\\\n/ip firewall address-list' -e $'1i\\\nremove [find list=CNIP]' > cnip.rsc
 
     - name: Apply
