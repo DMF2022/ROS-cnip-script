@@ -680,6 +680,7 @@ add address=183.92.0.0/14 list=CUCC
 add address=183.184.0.0/13 list=CUCC
 add address=192.140.208.0/22 list=CUCC
 add address=192.140.212.0/22 list=CUCC
+add address=202.38.164.0/22 list=CUCC
 add address=202.74.8.0/21 list=CUCC
 add address=202.75.208.0/20 list=CUCC
 add address=202.89.96.0/22 list=CUCC
