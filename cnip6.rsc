@@ -551,6 +551,9 @@ add address=2401:8da0::/32 list=CNIP
 add address=2401:8f40::/32 list=CNIP
 add address=2401:8fc0::/32 list=CNIP
 add address=2401:90a0::/32 list=CNIP
+add address=2401:9260::/32 list=CNIP
+add address=2401:92a0::/32 list=CNIP
+add address=2401:92e0::/32 list=CNIP
 add address=2401:9340::/32 list=CNIP
 add address=2401:9600::/32 list=CNIP
 add address=2401:96c0::/32 list=CNIP
