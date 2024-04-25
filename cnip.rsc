@@ -3715,6 +3715,7 @@ add address=157.61.0.0/16 list=CNIP
 add address=157.66.42.0/23 list=CNIP
 add address=157.66.70.0/23 list=CNIP
 add address=157.66.88.0/21 list=CNIP
+add address=157.66.164.0/23 list=CNIP
 add address=157.119.8.0/21 list=CNIP
 add address=157.119.16.0/22 list=CNIP
 add address=157.119.28.0/22 list=CNIP
