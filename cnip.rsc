@@ -1972,7 +1972,6 @@ add address=103.123.4.0/22 list=CNIP
 add address=103.123.56.0/22 list=CNIP
 add address=103.123.88.0/21 list=CNIP
 add address=103.123.116.0/22 list=CNIP
-add address=103.123.160.0/22 list=CNIP
 add address=103.123.176.0/22 list=CNIP
 add address=103.123.200.0/21 list=CNIP
 add address=103.123.208.0/21 list=CNIP
