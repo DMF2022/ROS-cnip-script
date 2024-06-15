@@ -586,6 +586,8 @@ add address=2401:a540::/32 list=CNIP
 add address=2401:a5c0::/32 list=CNIP
 add address=2401:a620::/32 list=CNIP
 add address=2401:a640::/32 list=CNIP
+add address=2401:a6e0::/32 list=CNIP
+add address=2401:a720::/32 list=CNIP
 add address=2401:a940::/32 list=CNIP
 add address=2401:a980::/32 list=CNIP
 add address=2401:aa00::/32 list=CNIP
