@@ -3744,6 +3744,7 @@ add address=160.22.148.0/23 list=CNIP
 add address=160.22.188.0/23 list=CNIP
 add address=160.22.224.0/23 list=CNIP
 add address=160.22.230.0/23 list=CNIP
+add address=160.22.244.0/22 list=CNIP
 add address=160.202.60.0/22 list=CNIP
 add address=160.202.148.0/22 list=CNIP
 add address=160.202.152.0/22 list=CNIP
