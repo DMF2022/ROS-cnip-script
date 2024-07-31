@@ -613,6 +613,7 @@ add address=2401:b5a0::/32 list=CNIP
 add address=2401:b600::/32 list=CNIP
 add address=2401:b680::/32 list=CNIP
 add address=2401:b6c0::/32 list=CNIP
+add address=2401:b6e0::/32 list=CNIP
 add address=2401:b7c0::/32 list=CNIP
 add address=2401:b940::/32 list=CNIP
 add address=2401:ba00::/32 list=CNIP
