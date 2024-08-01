@@ -34,6 +34,7 @@ add address=111.0.0.0/10 list=CMCC
 add address=112.0.0.0/10 list=CMCC
 add address=117.128.0.0/10 list=CMCC
 add address=120.192.0.0/10 list=CMCC
+add address=175.48.0.0/12 list=CMCC
 add address=175.176.188.0/22 list=CMCC
 add address=183.192.0.0/10 list=CMCC
 add address=211.103.0.0/17 list=CMCC
