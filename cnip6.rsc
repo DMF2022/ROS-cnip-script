@@ -617,6 +617,7 @@ add address=2401:b7c0::/32 list=CNIP
 add address=2401:b940::/32 list=CNIP
 add address=2401:ba00::/32 list=CNIP
 add address=2401:ba40::/32 list=CNIP
+add address=2401:bb20::/32 list=CNIP
 add address=2401:bb80::/32 list=CNIP
 add address=2401:be00::/32 list=CNIP
 add address=2401:c200::/32 list=CNIP
