@@ -299,7 +299,6 @@ add address=101.251.0.0/22 list=CTCC
 add address=101.251.8.0/21 list=CTCC
 add address=101.251.16.0/20 list=CTCC
 add address=101.251.32.0/19 list=CTCC
-add address=103.12.68.0/23 list=CTCC
 add address=103.22.0.0/22 list=CTCC
 add address=103.22.4.0/22 list=CTCC
 add address=103.22.8.0/22 list=CTCC
