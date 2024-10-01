@@ -171,7 +171,6 @@ add address=2400:4540::/32 list=CNIP
 add address=2400:4600::/32 list=CNIP
 add address=2400:4640::/32 list=CNIP
 add address=2400:46c0::/32 list=CNIP
-add address=2400:4740::/32 list=CNIP
 add address=2400:4920::/32 list=CNIP
 add address=2400:4bc0::/32 list=CNIP
 add address=2400:4e00::/32 list=CNIP
