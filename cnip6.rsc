@@ -633,6 +633,7 @@ add address=2401:ca20::/32 list=CNIP
 add address=2401:cb80::/32 list=CNIP
 add address=2401:cbe0::/32 list=CNIP
 add address=2401:cc00::/32 list=CNIP
+add address=2401:cc60::/32 list=CNIP
 add address=2401:ce00::/32 list=CNIP
 add address=2401:cf40::/32 list=CNIP
 add address=2401:cfc0::/32 list=CNIP
