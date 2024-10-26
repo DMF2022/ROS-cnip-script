@@ -3749,6 +3749,7 @@ add address=160.30.230.0/23 list=CNIP
 add address=160.187.223.0/24 list=CNIP
 add address=160.187.252.0/22 list=CNIP
 add address=160.191.0.0/23 list=CNIP
+add address=160.191.104.0/23 list=CNIP
 add address=160.202.60.0/22 list=CNIP
 add address=160.202.148.0/22 list=CNIP
 add address=160.202.152.0/22 list=CNIP
