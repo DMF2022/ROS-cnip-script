@@ -1986,7 +1986,6 @@ add address=103.126.124.0/22 list=CNIP
 add address=103.126.128.0/21 list=CNIP
 add address=103.126.208.0/22 list=CNIP
 add address=103.130.132.0/22 list=CNIP
-add address=103.130.152.0/24 list=CNIP
 add address=103.130.160.0/22 list=CNIP
 add address=103.130.228.0/22 list=CNIP
 add address=103.131.20.0/22 list=CNIP
