@@ -485,6 +485,7 @@ add address=2401:4a80::/32 list=CNIP
 add address=2401:4b00::/32 list=CNIP
 add address=2401:4f80::/32 list=CNIP
 add address=2401:5180::/32 list=CNIP
+add address=2401:5680::/32 list=CNIP
 add address=2401:58a0::/32 list=CNIP
 add address=2401:5960::/32 list=CNIP
 add address=2401:59c0::/32 list=CNIP
