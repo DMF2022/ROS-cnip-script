@@ -3070,7 +3070,6 @@ add address=115.44.0.0/14 list=CNIP
 add address=115.48.0.0/12 list=CNIP
 add address=115.69.64.0/20 list=CNIP
 add address=115.84.0.0/18 list=CNIP
-add address=115.84.192.0/19 list=CNIP
 add address=115.85.192.0/18 list=CNIP
 add address=115.100.0.0/14 list=CNIP
 add address=115.104.0.0/14 list=CNIP
