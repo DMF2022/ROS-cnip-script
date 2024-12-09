@@ -650,6 +650,7 @@ add address=183.78.180.0/22 list=CTCC
 add address=183.91.136.0/21 list=CTCC
 add address=183.128.0.0/11 list=CTCC
 add address=183.160.0.0/13 list=CTCC
+add address=193.119.0.0/19 list=CTCC
 add address=202.0.100.0/23 list=CTCC
 add address=202.0.122.0/23 list=CTCC
 add address=202.0.176.0/22 list=CTCC
