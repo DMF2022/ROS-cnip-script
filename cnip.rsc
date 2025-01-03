@@ -3766,6 +3766,7 @@ add address=161.189.0.0/16 list=CNIP
 add address=161.207.0.0/16 list=CNIP
 add address=161.248.20.0/23 list=CNIP
 add address=161.248.42.0/23 list=CNIP
+add address=161.248.84.0/23 list=CNIP
 add address=162.14.0.0/16 list=CNIP
 add address=162.105.0.0/16 list=CNIP
 add address=163.0.0.0/16 list=CNIP
