@@ -1783,7 +1783,6 @@ add address=103.100.144.0/22 list=CNIP
 add address=103.100.236.0/22 list=CNIP
 add address=103.100.240.0/22 list=CNIP
 add address=103.100.248.0/21 list=CNIP
-add address=103.101.4.0/22 list=CNIP
 add address=103.101.8.0/21 list=CNIP
 add address=103.101.60.0/22 list=CNIP
 add address=103.101.120.0/21 list=CNIP
