@@ -667,6 +667,8 @@ add address=2401:e940::/32 list=CNIP
 add address=2401:e9c0::/32 list=CNIP
 add address=2401:ec00::/32 list=CNIP
 add address=2401:ec40::/32 list=CNIP
+add address=2401:f0a0::/32 list=CNIP
+add address=2401:f0e0::/32 list=CNIP
 add address=2401:f300::/32 list=CNIP
 add address=2401:f7c0::/32 list=CNIP
 add address=2401:fa80::/32 list=CNIP
