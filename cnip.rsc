@@ -3784,6 +3784,7 @@ add address=163.53.188.0/22 list=CNIP
 add address=163.53.240.0/22 list=CNIP
 add address=163.61.62.0/23 list=CNIP
 add address=163.61.113.0/24 list=CNIP
+add address=163.61.178.0/23 list=CNIP
 add address=163.125.0.0/16 list=CNIP
 add address=163.142.0.0/16 list=CNIP
 add address=163.177.0.0/16 list=CNIP
