@@ -48,6 +48,7 @@ add address=1.204.0.0/14 list=CTCC
 add address=14.0.0.0/21 list=CTCC
 add address=14.0.12.0/22 list=CTCC
 add address=14.1.0.0/22 list=CTCC
+add address=14.16.0.0/12 list=CTCC
 add address=14.102.128.0/22 list=CTCC
 add address=14.104.0.0/13 list=CTCC
 add address=14.112.0.0/12 list=CTCC
