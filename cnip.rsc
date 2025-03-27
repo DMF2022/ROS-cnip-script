@@ -3042,7 +3042,6 @@ add address=114.118.0.0/16 list=CNIP
 add address=114.119.0.0/17 list=CNIP
 add address=114.119.192.0/18 list=CNIP
 add address=114.132.0.0/16 list=CNIP
-add address=114.134.188.0/23 list=CNIP
 add address=114.135.0.0/16 list=CNIP
 add address=114.138.0.0/15 list=CNIP
 add address=114.141.64.0/21 list=CNIP
