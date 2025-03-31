@@ -18,7 +18,6 @@ add address=1.2.6.0/23 list=CTCC
 add address=1.2.9.0/24 list=CTCC
 add address=1.2.10.0/23 list=CTCC
 add address=1.2.12.0/22 list=CTCC
-add address=1.2.16.0/20 list=CTCC
 add address=1.2.32.0/19 list=CTCC
 add address=1.2.64.0/18 list=CTCC
 add address=1.3.0.0/16 list=CTCC
