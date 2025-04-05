@@ -2008,6 +2008,7 @@ add address=2408:6000::/24 list=CNIP
 add address=2408:8000::/22 list=CNIP
 add address=2408:8400::/22 list=CNIP
 add address=2408:8800::/21 list=CNIP
+add address=2409:1000::/20 list=CNIP
 add address=2409:2000::/21 list=CNIP
 add address=2409:6000::/20 list=CNIP
 add address=2409:8000::/20 list=CNIP
