@@ -53,6 +53,8 @@ add address=43.229.172.0/22 list=CUCC
 add address=43.229.176.0/22 list=CUCC
 add address=43.229.180.0/22 list=CUCC
 add address=43.229.236.0/22 list=CUCC
+add address=43.230.224.0/20 list=CUCC
+add address=43.231.136.0/22 list=CUCC
 add address=43.239.120.0/22 list=CUCC
 add address=43.240.0.0/22 list=CUCC
 add address=43.240.72.0/22 list=CUCC
