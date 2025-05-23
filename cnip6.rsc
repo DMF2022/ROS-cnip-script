@@ -83,6 +83,8 @@ add address=2001:df4:c180::/48 list=CNIP
 add address=2001:df4:c580::/48 list=CNIP
 add address=2001:df4:c780::/48 list=CNIP
 add address=2001:df4:e140::/48 list=CNIP
+add address=2001:df4:e141::/48 list=CNIP
+add address=2001:df4:e142::/47 list=CNIP
 add address=2001:df5:1440::/48 list=CNIP
 add address=2001:df5:2080::/48 list=CNIP
 add address=2001:df5:2fc0::/48 list=CNIP
