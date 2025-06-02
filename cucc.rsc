@@ -7,7 +7,6 @@ add address=14.204.0.0/15 list=CUCC
 add address=27.0.128.0/22 list=CUCC
 add address=27.8.0.0/13 list=CUCC
 add address=27.36.0.0/14 list=CUCC
-add address=27.40.0.0/13 list=CUCC
 add address=27.50.128.0/17 list=CUCC
 add address=27.54.192.0/18 list=CUCC
 add address=27.98.224.0/19 list=CUCC
