@@ -201,7 +201,6 @@ add address=60.216.0.0/15 list=CUCC
 add address=60.218.0.0/15 list=CUCC
 add address=60.220.0.0/14 list=CUCC
 add address=60.255.0.0/16 list=CUCC
-add address=61.45.128.0/18 list=CUCC
 add address=61.48.0.0/14 list=CUCC
 add address=61.52.0.0/15 list=CUCC
 add address=61.54.0.0/16 list=CUCC
