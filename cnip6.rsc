@@ -1567,7 +1567,6 @@ add address=2405:ce80::/32 list=CNIP
 add address=2405:d280::/32 list=CNIP
 add address=2405:d4c0::/32 list=CNIP
 add address=2405:d700::/32 list=CNIP
-add address=2405:d740::/32 list=CNIP
 add address=2405:d900::/32 list=CNIP
 add address=2405:df40::/32 list=CNIP
 add address=2405:e000::/32 list=CNIP
