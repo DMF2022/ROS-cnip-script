@@ -690,6 +690,7 @@ add address=2402:fc0::/32 list=CNIP
 add address=2402:1000::/32 list=CNIP
 add address=2402:1160::/32 list=CNIP
 add address=2402:1440::/32 list=CNIP
+add address=2402:1460::/32 list=CNIP
 add address=2402:14c0::/32 list=CNIP
 add address=2402:1600::/32 list=CNIP
 add address=2402:1740::/32 list=CNIP
