@@ -89,6 +89,7 @@ add address=39.0.2.0/23 list=CTCC
 add address=39.0.4.0/22 list=CTCC
 add address=39.0.8.0/21 list=CTCC
 add address=39.0.16.0/20 list=CTCC
+add address=39.0.32.0/19 list=CTCC
 add address=39.0.64.0/18 list=CTCC
 add address=39.0.128.0/17 list=CTCC
 add address=42.0.0.0/22 list=CTCC
