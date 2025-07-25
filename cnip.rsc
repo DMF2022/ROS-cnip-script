@@ -3915,6 +3915,7 @@ add address=183.182.0.0/19 list=CNIP
 add address=183.184.0.0/13 list=CNIP
 add address=183.192.0.0/10 list=CNIP
 add address=188.131.128.0/17 list=CNIP
+add address=192.51.172.0/23 list=CNIP
 add address=192.51.188.0/24 list=CNIP
 add address=192.55.46.0/23 list=CNIP
 add address=192.55.68.0/22 list=CNIP
