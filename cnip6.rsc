@@ -156,6 +156,7 @@ add address=2401:4a80::/32 list=CNIP
 add address=2401:5c20:10::/48 list=CNIP
 add address=2401:70e0::/32 list=CNIP
 add address=2401:71c0::/48 list=CNIP
+add address=2401:7660::/48 list=CNIP
 add address=2401:7700::/32 list=CNIP
 add address=2401:7d40::/32 list=CNIP
 add address=2401:7e00::/32 list=CNIP
@@ -382,7 +383,8 @@ add address=2406:840:9620::/44 list=CNIP
 add address=2406:840:9961::/48 list=CNIP
 add address=2406:840:9962::/47 list=CNIP
 add address=2406:840:996c::/48 list=CNIP
-add address=2406:840:a000::/36 list=CNIP
+add address=2406:840:a7fe::/48 list=CNIP
+add address=2406:840:a800::/37 list=CNIP
 add address=2406:840:e080::/44 list=CNIP
 add address=2406:840:e0cf::/48 list=CNIP
 add address=2406:840:e0e0::/46 list=CNIP
@@ -398,7 +400,6 @@ add address=2406:840:e600::/47 list=CNIP
 add address=2406:840:e608::/46 list=CNIP
 add address=2406:840:e621::/48 list=CNIP
 add address=2406:840:e666::/47 list=CNIP
-add address=2406:840:e720::/44 list=CNIP
 add address=2406:840:e770::/48 list=CNIP
 add address=2406:840:e777::/48 list=CNIP
 add address=2406:840:e80f::/48 list=CNIP
@@ -567,7 +568,6 @@ add address=2408:8181:8000::/40 list=CNIP
 add address=2408:8181:a000::/40 list=CNIP
 add address=2408:8181:a220::/44 list=CNIP
 add address=2408:8181:e000::/40 list=CNIP
-add address=2408:8182:6000::/40 list=CNIP
 add address=2408:8182:c000::/40 list=CNIP
 add address=2408:8183:4000::/40 list=CNIP
 add address=2408:8183:8000::/40 list=CNIP
@@ -1286,6 +1286,7 @@ add address=2a0e:9b00::/29 list=CNIP
 add address=2a0e:aa01:1fff::/48 list=CNIP
 add address=2a0e:aa06::/40 list=CNIP
 add address=2a0e:aa06:440::/48 list=CNIP
+add address=2a0e:aa06:450::/44 list=CNIP
 add address=2a0e:aa06:490::/44 list=CNIP
 add address=2a0e:aa06:4e0::/44 list=CNIP
 add address=2a0e:aa06:500::/44 list=CNIP
@@ -1358,7 +1359,7 @@ add address=2a10:ccc0:d0a::/47 list=CNIP
 add address=2a10:ccc0:d0c::/47 list=CNIP
 add address=2a10:ccc6:66c4::/48 list=CNIP
 add address=2a10:ccc6:66c6::/48 list=CNIP
-add address=2a10:ccc6:66c8::/48 list=CNIP
+add address=2a10:ccc6:66c9::/48 list=CNIP
 add address=2a10:ccc6:66ca::/48 list=CNIP
 add address=2a10:ccc6:66cc::/47 list=CNIP
 add address=2a12:f8c3::/36 list=CNIP
@@ -1404,7 +1405,6 @@ add address=2a14:67c1:a096::/48 list=CNIP
 add address=2a14:67c1:a099::/48 list=CNIP
 add address=2a14:67c1:a100::/43 list=CNIP
 add address=2a14:67c1:a125::/48 list=CNIP
-add address=2a14:67c1:a142::/48 list=CNIP
 add address=2a14:67c1:a144::/48 list=CNIP
 add address=2a14:67c1:b000::/48 list=CNIP
 add address=2a14:67c1:b065::/48 list=CNIP
@@ -1416,10 +1416,9 @@ add address=2a14:67c1:b107::/48 list=CNIP
 add address=2a14:67c1:b130::/46 list=CNIP
 add address=2a14:67c1:b134::/47 list=CNIP
 add address=2a14:67c1:b4a1::/48 list=CNIP
+add address=2a14:67c1:b4a2::/48 list=CNIP
 add address=2a14:67c1:b4a6::/48 list=CNIP
-add address=2a14:67c1:b4c0::/46 list=CNIP
-add address=2a14:67c1:b4c4::/48 list=CNIP
-add address=2a14:67c1:b4d0::/45 list=CNIP
+add address=2a14:67c1:b4c0::/45 list=CNIP
 add address=2a14:67c1:b4e0::/43 list=CNIP
 add address=2a14:67c1:b500::/48 list=CNIP
 add address=2a14:67c1:b549::/48 list=CNIP
@@ -1435,7 +1434,6 @@ add address=2a14:67c5:1900::/40 list=CNIP
 add address=2a14:7580:9200::/40 list=CNIP
 add address=2a14:7580:9400::/39 list=CNIP
 add address=2a14:7580:9600::/46 list=CNIP
-add address=2a14:7580:960c::/48 list=CNIP
 add address=2a14:7580:d000::/37 list=CNIP
 add address=2a14:7580:d800::/39 list=CNIP
 add address=2a14:7580:e200::/40 list=CNIP
@@ -1457,10 +1455,12 @@ add address=2a14:7581:ba4::/48 list=CNIP
 add address=2a14:7581:bbb::/48 list=CNIP
 add address=2a14:7581:bc2::/48 list=CNIP
 add address=2a14:7581:bcd::/48 list=CNIP
+add address=2a14:7581:bff::/48 list=CNIP
 add address=2a14:7581:ffb::/48 list=CNIP
 add address=2a14:7581:3100::/40 list=CNIP
 add address=2a14:7581:3400::/47 list=CNIP
 add address=2a14:7581:9010::/44 list=CNIP
+add address=2a14:7583:f203::/48 list=CNIP
 add address=2a14:7584::/36 list=CNIP
 add address=2c0f:f7a8:8011::/48 list=CNIP
 add address=2c0f:f7a8:8050::/48 list=CNIP
