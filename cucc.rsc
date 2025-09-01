@@ -284,7 +284,6 @@ add address=103.28.204.0/22 list=CUCC
 add address=103.29.16.0/24 list=CUCC
 add address=103.30.148.0/24 list=CUCC
 add address=103.36.28.0/22 list=CUCC
-add address=103.36.36.0/22 list=CUCC
 add address=103.36.136.0/22 list=CUCC
 add address=103.36.168.0/24 list=CUCC
 add address=103.36.172.0/22 list=CUCC
@@ -851,6 +850,7 @@ add address=139.9.224.0/20 list=CUCC
 add address=139.9.240.0/21 list=CUCC
 add address=139.9.248.0/22 list=CUCC
 add address=139.159.96.0/21 list=CUCC
+add address=139.159.104.0/22 list=CUCC
 add address=139.159.108.0/23 list=CUCC
 add address=139.159.110.0/24 list=CUCC
 add address=139.159.112.0/23 list=CUCC
