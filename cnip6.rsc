@@ -1487,6 +1487,7 @@ add address=2a14:7581:3400::/47 list=CNIP
 add address=2a14:7581:9010::/44 list=CNIP
 add address=2a14:7583:f201::/48 list=CNIP
 add address=2a14:7583:f203::/48 list=CNIP
+add address=2a14:7583:f300::/40 list=CNIP
 add address=2a14:7584::/36 list=CNIP
 add address=2c0f:f7a8:8011::/48 list=CNIP
 add address=2c0f:f7a8:8050::/48 list=CNIP
