@@ -919,10 +919,6 @@ add address=163.142.0.0/16 list=CUCC
 add address=163.177.0.0/16 list=CUCC
 add address=163.179.0.0/16 list=CUCC
 add address=163.204.0.0/16 list=CUCC
-add address=168.159.144.0/21 list=CUCC
-add address=168.159.152.0/22 list=CUCC
-add address=168.159.156.0/23 list=CUCC
-add address=168.159.158.0/24 list=CUCC
 add address=168.160.224.0/19 list=CUCC
 add address=171.34.0.0/15 list=CUCC
 add address=171.36.0.0/14 list=CUCC
