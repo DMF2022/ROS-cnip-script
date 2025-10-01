@@ -1296,6 +1296,7 @@ add address=2a0b:2542::/48 list=CNIP
 add address=2a0b:4b81:1001::/48 list=CNIP
 add address=2a0b:4e07:b8::/47 list=CNIP
 add address=2a0c:9a40:84e0::/48 list=CNIP
+add address=2a0c:9a40:8fc1::/48 list=CNIP
 add address=2a0c:9a40:8fc2::/47 list=CNIP
 add address=2a0c:9a40:8fc4::/48 list=CNIP
 add address=2a0c:b641:571::/48 list=CNIP
