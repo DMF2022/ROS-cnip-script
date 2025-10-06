@@ -127,7 +127,6 @@ add address=45.116.32.0/23 list=CUCC
 add address=45.116.35.0/24 list=CUCC
 add address=45.116.140.0/23 list=CUCC
 add address=45.119.68.0/22 list=CUCC
-add address=45.119.116.0/22 list=CUCC
 add address=45.124.20.0/22 list=CUCC
 add address=45.124.76.0/22 list=CUCC
 add address=45.125.56.0/22 list=CUCC
