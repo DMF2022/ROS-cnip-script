@@ -995,7 +995,8 @@ add address=103.47.80.0/22 list=CNIP
 add address=103.48.232.0/22 list=CNIP
 add address=103.49.12.0/22 list=CNIP
 add address=103.49.108.0/22 list=CNIP
-add address=103.49.196.0/22 list=CNIP
+add address=103.49.196.0/24 list=CNIP
+add address=103.49.198.0/23 list=CNIP
 add address=103.51.62.0/23 list=CNIP
 add address=103.52.100.0/22 list=CNIP
 add address=103.52.104.0/23 list=CNIP
