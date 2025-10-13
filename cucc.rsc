@@ -16,6 +16,7 @@ add address=27.36.0.0/14 list=CUCC
 add address=27.40.0.0/13 list=CUCC
 add address=27.50.128.0/17 list=CUCC
 add address=27.98.224.0/19 list=CUCC
+add address=27.99.128.0/17 list=CUCC
 add address=27.106.128.0/18 list=CUCC
 add address=27.112.0.0/21 list=CUCC
 add address=27.115.0.0/17 list=CUCC
@@ -49,7 +50,6 @@ add address=43.227.140.0/22 list=CUCC
 add address=43.227.252.0/22 list=CUCC
 add address=43.228.36.0/22 list=CUCC
 add address=43.229.48.0/24 list=CUCC
-add address=43.229.184.0/24 list=CUCC
 add address=43.229.186.0/23 list=CUCC
 add address=43.231.41.0/24 list=CUCC
 add address=43.231.46.0/23 list=CUCC
@@ -106,7 +106,7 @@ add address=43.250.244.0/22 list=CUCC
 add address=43.251.4.0/22 list=CUCC
 add address=43.251.36.0/22 list=CUCC
 add address=43.254.8.0/22 list=CUCC
-add address=43.254.24.0/22 list=CUCC
+add address=43.254.24.0/24 list=CUCC
 add address=43.254.44.0/22 list=CUCC
 add address=43.254.100.0/22 list=CUCC
 add address=43.254.104.0/23 list=CUCC
@@ -123,9 +123,6 @@ add address=43.255.200.0/22 list=CUCC
 add address=43.255.212.0/22 list=CUCC
 add address=45.113.24.0/22 list=CUCC
 add address=45.115.164.0/22 list=CUCC
-add address=45.116.32.0/23 list=CUCC
-add address=45.116.35.0/24 list=CUCC
-add address=45.116.140.0/23 list=CUCC
 add address=45.119.68.0/22 list=CUCC
 add address=45.124.20.0/22 list=CUCC
 add address=45.124.76.0/22 list=CUCC
@@ -308,8 +305,6 @@ add address=103.53.211.0/24 list=CUCC
 add address=103.55.228.0/22 list=CUCC
 add address=103.56.32.0/22 list=CUCC
 add address=103.56.60.0/22 list=CUCC
-add address=103.56.76.0/23 list=CUCC
-add address=103.56.78.0/24 list=CUCC
 add address=103.59.124.0/22 list=CUCC
 add address=103.59.164.0/22 list=CUCC
 add address=103.60.236.0/22 list=CUCC
@@ -459,7 +454,6 @@ add address=103.251.240.0/22 list=CUCC
 add address=103.252.36.0/24 list=CUCC
 add address=103.252.248.0/22 list=CUCC
 add address=103.253.60.0/22 list=CUCC
-add address=103.254.68.0/22 list=CUCC
 add address=103.255.92.0/22 list=CUCC
 add address=103.255.200.0/22 list=CUCC
 add address=106.3.96.0/22 list=CUCC
