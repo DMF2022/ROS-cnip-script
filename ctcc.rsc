@@ -186,7 +186,6 @@ add address=49.221.64.0/19 list=CTCC
 add address=49.221.128.0/19 list=CTCC
 add address=54.222.46.0/23 list=CTCC
 add address=58.32.0.0/11 list=CTCC
-add address=58.66.192.0/18 list=CTCC
 add address=58.67.128.0/17 list=CTCC
 add address=58.68.236.0/24 list=CTCC
 add address=58.68.247.0/24 list=CTCC
@@ -1763,7 +1762,7 @@ add address=220.113.150.0/23 list=CTCC
 add address=220.154.0.0/20 list=CTCC
 add address=220.154.16.0/22 list=CTCC
 add address=220.154.128.0/22 list=CTCC
-add address=220.154.132.0/24 list=CTCC
+add address=220.154.132.0/23 list=CTCC
 add address=220.154.140.0/24 list=CTCC
 add address=220.154.144.0/24 list=CTCC
 add address=220.160.0.0/12 list=CTCC
