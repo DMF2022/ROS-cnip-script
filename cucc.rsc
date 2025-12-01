@@ -2,6 +2,7 @@
 remove [find list=CUCC]
 add address=1.1.8.0/24 list=CUCC
 add address=1.24.0.0/13 list=CUCC
+add address=1.45.0.0/16 list=CUCC
 add address=1.56.0.0/13 list=CUCC
 add address=1.119.178.0/23 list=CUCC
 add address=1.119.192.0/21 list=CUCC
@@ -139,7 +140,7 @@ add address=45.125.56.0/22 list=CUCC
 add address=45.127.144.0/21 list=CUCC
 add address=45.249.212.0/22 list=CUCC
 add address=45.250.32.0/21 list=CUCC
-add address=45.250.180.0/23 list=CUCC
+add address=45.250.180.0/22 list=CUCC
 add address=45.250.188.0/24 list=CUCC
 add address=45.252.104.0/22 list=CUCC
 add address=45.253.24.0/22 list=CUCC
@@ -311,7 +312,6 @@ add address=103.46.168.0/22 list=CUCC
 add address=103.47.48.0/22 list=CUCC
 add address=103.53.208.0/24 list=CUCC
 add address=103.53.211.0/24 list=CUCC
-add address=103.55.228.0/22 list=CUCC
 add address=103.56.60.0/22 list=CUCC
 add address=103.59.124.0/22 list=CUCC
 add address=103.59.164.0/22 list=CUCC
@@ -384,6 +384,7 @@ add address=103.197.1.0/24 list=CUCC
 add address=103.198.60.0/22 list=CUCC
 add address=103.200.220.0/24 list=CUCC
 add address=103.200.222.0/23 list=CUCC
+add address=103.201.192.0/24 list=CUCC
 add address=103.202.92.0/22 list=CUCC
 add address=103.202.96.0/20 list=CUCC
 add address=103.202.112.0/22 list=CUCC
@@ -394,12 +395,15 @@ add address=103.205.188.0/22 list=CUCC
 add address=103.205.192.0/22 list=CUCC
 add address=103.205.252.0/22 list=CUCC
 add address=103.207.228.0/22 list=CUCC
+add address=103.210.160.0/22 list=CUCC
 add address=103.211.220.0/22 list=CUCC
 add address=103.212.4.0/22 list=CUCC
 add address=103.213.64.0/19 list=CUCC
 add address=103.214.48.0/22 list=CUCC
+add address=103.216.254.0/23 list=CUCC
 add address=103.218.216.0/22 list=CUCC
 add address=103.219.32.0/21 list=CUCC
+add address=103.219.88.0/22 list=CUCC
 add address=103.219.92.0/24 list=CUCC
 add address=103.219.100.0/23 list=CUCC
 add address=103.220.164.0/22 list=CUCC
@@ -519,6 +523,7 @@ add address=113.213.0.0/18 list=CUCC
 add address=113.213.64.0/19 list=CUCC
 add address=113.213.96.0/20 list=CUCC
 add address=113.224.0.0/12 list=CUCC
+add address=114.28.135.0/24 list=CUCC
 add address=114.28.248.0/21 list=CUCC
 add address=114.66.80.0/23 list=CUCC
 add address=114.66.236.0/22 list=CUCC
@@ -761,7 +766,6 @@ add address=122.200.124.0/24 list=CUCC
 add address=123.4.0.0/14 list=CUCC
 add address=123.8.0.0/13 list=CUCC
 add address=123.49.192.0/23 list=CUCC
-add address=123.49.194.0/24 list=CUCC
 add address=123.58.0.0/20 list=CUCC
 add address=123.58.32.0/23 list=CUCC
 add address=123.58.34.0/24 list=CUCC
@@ -839,6 +843,7 @@ add address=139.9.224.0/20 list=CUCC
 add address=139.9.240.0/21 list=CUCC
 add address=139.9.248.0/22 list=CUCC
 add address=139.159.96.0/21 list=CUCC
+add address=139.159.104.0/22 list=CUCC
 add address=139.159.108.0/23 list=CUCC
 add address=139.159.110.0/24 list=CUCC
 add address=139.159.112.0/23 list=CUCC
