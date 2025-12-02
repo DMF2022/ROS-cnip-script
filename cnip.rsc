@@ -3854,8 +3854,9 @@ add address=211.160.46.0/23 list=CNIP
 add address=211.160.62.0/23 list=CNIP
 add address=211.160.72.0/21 list=CNIP
 add address=211.160.80.0/20 list=CNIP
-add address=211.160.112.0/22 list=CNIP
-add address=211.160.120.0/23 list=CNIP
+add address=211.160.112.0/23 list=CNIP
+add address=211.160.115.0/24 list=CNIP
+add address=211.160.120.0/24 list=CNIP
 add address=211.160.160.0/19 list=CNIP
 add address=211.160.194.0/23 list=CNIP
 add address=211.160.196.0/24 list=CNIP
