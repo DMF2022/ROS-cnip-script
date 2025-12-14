@@ -851,7 +851,8 @@ add address=103.3.136.0/21 list=CNIP
 add address=103.3.152.0/21 list=CNIP
 add address=103.4.56.0/22 list=CNIP
 add address=103.5.52.0/24 list=CNIP
-add address=103.5.192.0/22 list=CNIP
+add address=103.5.192.0/23 list=CNIP
+add address=103.5.194.0/24 list=CNIP
 add address=103.6.220.0/22 list=CNIP
 add address=103.7.140.0/22 list=CNIP
 add address=103.8.8.0/22 list=CNIP
