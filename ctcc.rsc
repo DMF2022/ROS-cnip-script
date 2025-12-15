@@ -1153,7 +1153,7 @@ add address=125.213.32.0/20 list=CTCC
 add address=125.254.128.0/19 list=CTCC
 add address=125.254.168.0/21 list=CTCC
 add address=125.254.176.0/21 list=CTCC
-add address=131.221.82.0/23 list=CTCC
+add address=131.221.82.0/24 list=CTCC
 add address=139.5.60.0/22 list=CTCC
 add address=139.9.144.0/20 list=CTCC
 add address=139.9.224.0/20 list=CTCC
