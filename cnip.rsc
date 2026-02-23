@@ -2981,6 +2981,7 @@ add address=175.188.188.0/22 list=CNIP
 add address=175.190.24.0/21 list=CNIP
 add address=175.190.126.0/23 list=CNIP
 add address=178.219.5.0/24 list=CNIP
+add address=178.236.38.0/23 list=CNIP
 add address=178.253.239.0/24 list=CNIP
 add address=180.76.16.0/20 list=CNIP
 add address=180.76.32.0/19 list=CNIP
