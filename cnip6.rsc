@@ -1333,8 +1333,8 @@ add address=2a0e:aa07:e210::/48 list=CNIP
 add address=2a0e:aa07:e21c::/47 list=CNIP
 add address=2a0e:aa07:e220::/44 list=CNIP
 add address=2a0e:aa07:e280::/45 list=CNIP
-add address=2a0e:aa07:e288::/46 list=CNIP
-add address=2a0e:aa07:e28c::/47 list=CNIP
+add address=2a0e:aa07:e288::/47 list=CNIP
+add address=2a0e:aa07:e28a::/48 list=CNIP
 add address=2a0e:aa07:e28e::/48 list=CNIP
 add address=2a0e:aa07:f0d0::/46 list=CNIP
 add address=2a0e:aa07:f0d4::/47 list=CNIP
