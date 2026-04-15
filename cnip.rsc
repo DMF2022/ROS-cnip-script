@@ -250,7 +250,7 @@ add address=43.176.0.0/14 list=CNIP
 add address=43.180.0.0/16 list=CNIP
 add address=43.192.0.0/16 list=CNIP
 add address=43.193.0.0/18 list=CNIP
-add address=43.193.64.0/24 list=CNIP
+add address=43.193.64.0/23 list=CNIP
 add address=43.194.0.0/20 list=CNIP
 add address=43.194.16.0/24 list=CNIP
 add address=43.195.0.0/20 list=CNIP
