@@ -488,7 +488,8 @@ add address=103.186.108.0/23 list=CTCC
 add address=103.191.242.0/23 list=CTCC
 add address=103.192.8.0/21 list=CTCC
 add address=103.192.16.0/20 list=CTCC
-add address=103.192.134.0/24 list=CTCC
+add address=103.192.133.0/24 list=CTCC
+add address=103.192.134.0/23 list=CTCC
 add address=103.192.188.0/22 list=CTCC
 add address=103.192.212.0/22 list=CTCC
 add address=103.192.252.0/22 list=CTCC
