@@ -395,6 +395,7 @@ add address=103.202.128.0/20 list=CUCC
 add address=103.202.144.0/22 list=CUCC
 add address=103.205.188.0/22 list=CUCC
 add address=103.205.192.0/22 list=CUCC
+add address=103.205.252.0/22 list=CUCC
 add address=103.207.228.0/22 list=CUCC
 add address=103.210.160.0/22 list=CUCC
 add address=103.211.220.0/22 list=CUCC
