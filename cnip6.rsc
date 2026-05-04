@@ -23,6 +23,7 @@ add address=2400:1160::/32 list=CNIP
 add address=2400:3200::/32 list=CNIP
 add address=2400:5280:f803::/48 list=CNIP
 add address=2400:5a00::/32 list=CNIP
+add address=2400:5a60:2::/48 list=CNIP
 add address=2400:6000::/32 list=CNIP
 add address=2400:6600::/32 list=CNIP
 add address=2400:6e60:1301::/48 list=CNIP
@@ -135,7 +136,6 @@ add address=2401:4880::/32 list=CNIP
 add address=2401:4a80::/32 list=CNIP
 add address=2401:5560:1000::/48 list=CNIP
 add address=2401:5c20:10::/48 list=CNIP
-add address=2401:70e0::/32 list=CNIP
 add address=2401:71c0::/48 list=CNIP
 add address=2401:7660::/48 list=CNIP
 add address=2401:7700::/32 list=CNIP
@@ -1420,9 +1420,10 @@ add address=2a0e:b107:2440::/44 list=CNIP
 add address=2a0f:1cc5:10::/44 list=CNIP
 add address=2a0f:1cc5:110::/44 list=CNIP
 add address=2a0f:1cc5:130::/44 list=CNIP
-add address=2a0f:1cc5:140::/43 list=CNIP
+add address=2a0f:1cc5:140::/44 list=CNIP
 add address=2a0f:1cc5:600::/47 list=CNIP
 add address=2a0f:1cc5:603::/48 list=CNIP
+add address=2a0f:1cc5:642::/48 list=CNIP
 add address=2a0f:1cc5:645::/48 list=CNIP
 add address=2a0f:1cc5:661::/48 list=CNIP
 add address=2a0f:1cc5:662::/48 list=CNIP
@@ -1444,9 +1445,8 @@ add address=2a0f:1cc5:2520::/44 list=CNIP
 add address=2a0f:1cc5:2600::/40 list=CNIP
 add address=2a0f:1cc5:2d01::/48 list=CNIP
 add address=2a0f:1cc5:2d03::/48 list=CNIP
-add address=2a0f:1cc5:3200::/46 list=CNIP
-add address=2a0f:1cc5:3204::/47 list=CNIP
-add address=2a0f:1cc5:3206::/48 list=CNIP
+add address=2a0f:1cc5:3200::/45 list=CNIP
+add address=2a0f:1cc5:3208::/47 list=CNIP
 add address=2a0f:1cc5:3222::/48 list=CNIP
 add address=2a0f:1cc6:b110::/47 list=CNIP
 add address=2a0f:2706::/32 list=CNIP
@@ -1475,7 +1475,6 @@ add address=2a13:a5c3:ff50::/44 list=CNIP
 add address=2a13:a5c5::/48 list=CNIP
 add address=2a13:aac4:f000::/44 list=CNIP
 add address=2a13:b487:1200::/42 list=CNIP
-add address=2a14:67c1:a110::/44 list=CNIP
 add address=2a14:67c1:b500::/47 list=CNIP
 add address=2a14:67c1:b511::/48 list=CNIP
 add address=2a14:67c1:b514::/48 list=CNIP
