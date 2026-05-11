@@ -760,6 +760,7 @@ add address=122.102.64.0/20 list=CUCC
 add address=122.114.0.0/16 list=CUCC
 add address=122.115.32.0/19 list=CUCC
 add address=122.136.0.0/13 list=CUCC
+add address=122.144.240.0/24 list=CUCC
 add address=122.156.0.0/14 list=CUCC
 add address=122.188.0.0/14 list=CUCC
 add address=122.192.0.0/14 list=CUCC
