@@ -1411,6 +1411,7 @@ add address=2a06:3600:fb00::/40 list=CNIP
 add address=2a06:3600:fc00::/38 list=CNIP
 add address=2a06:3605::/32 list=CNIP
 add address=2a06:3606::/31 list=CNIP
+add address=2a06:9801:2b3::/48 list=CNIP
 add address=2a06:a005:260::/43 list=CNIP
 add address=2a06:a005:280::/43 list=CNIP
 add address=2a06:a005:2a0::/44 list=CNIP
