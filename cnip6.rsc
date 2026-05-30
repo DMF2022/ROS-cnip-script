@@ -1588,7 +1588,6 @@ add address=2a14:7586:6107::/48 list=CNIP
 add address=2a14:7586:6110::/48 list=CNIP
 add address=2a14:7586:6300::/44 list=CNIP
 add address=2a14:7dc0:506::/48 list=CNIP
-add address=2a14:ae00:50::/44 list=CNIP
 add address=2a14:c380:21::/48 list=CNIP
 add address=2c0f:f7a8:8011::/48 list=CNIP
 add address=2c0f:f7a8:8050::/48 list=CNIP
