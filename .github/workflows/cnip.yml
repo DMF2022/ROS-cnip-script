@@ -1,8 +1,8 @@
-name: ROS CNIP list
+name: Generate All ROS IP Lists from gaoyifan
 
 on:
   schedule:
-    - cron: "00 0 * * *"
+    - cron: "0 0 * * *"
   workflow_dispatch:
 
 jobs:
@@ -11,24 +11,35 @@ jobs:
 
     steps:
     - name: Checkout
-      uses: actions/checkout@v2
+      uses: actions/checkout@v4
       with:
         fetch-depth: 0
         
     - name: Set git identity
-      run : |
+      run: |
         git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
         git config --global user.name "github-actions[bot]"
         sudo timedatectl set-timezone "Asia/Shanghai"
      
-    - name: Combine
+    - name: Download and Convert
       run: |
-        clang="$(curl -kLfsm 5 https://ispip.clang.cn/all_cn_cidr.txt)"
-        echo -e "${clang}" | sed -e 's/^/add address=/g' -e 's/$/ list=CNIP/g' | sed -e $'1i\\\n/ip firewall address-list' -e $'1i\\\nremove [find list=CNIP]' > cnip.rsc
+        echo "/ip firewall address-list remove [find list=\"CNIP\"]" > cnip.rsc
+        curl -sSL "https://china-operator-ip.yfgao.com/china.txt" | awk '/^[^#]/ && NF {print "/ip firewall address-list add list=CNIP address=" $1}' >> cnip.rsc
+
+        echo "/ip firewall address-list remove [find list=\"CT\"]" > ct.rsc
+        curl -sSL "https://china-operator-ip.yfgao.com/ct.txt" | awk '/^[^#]/ && NF {print "/ip firewall address-list add list=CT address=" $1}' >> ct.rsc
+
+        echo "/ip firewall address-list remove [find list=\"CU\"]" > cu.rsc
+        curl -sSL "https://china-operator-ip.yfgao.com/cu.txt" | awk '/^[^#]/ && NF {print "/ip firewall address-list add list=CU address=" $1}' >> cu.rsc
+
+        echo "/ip firewall address-list remove [find list=\"CMCC\"]" > cmcc.rsc
+        curl -sSL "https://china-operator-ip.yfgao.com/cmcc.txt" | awk '/^[^#]/ && NF {print "/ip firewall address-list add list=CMCC address=" $1}' >> cmcc.rsc
+
+        echo "/ipv6 firewall address-list remove [find list=\"CNIP\"]" > cnip6.rsc
+        curl -sSL "https://china-operator-ip.yfgao.com/china6.txt" | awk '/^[^#]/ && NF {print "/ipv6 firewall address-list add list=CNIP address=" $1}' >> cnip6.rsc
 
     - name: Apply
       run: |
         Emoji=("🎉" "🤞" "✨" "🎁" "🎈" "🎄" "🎨" "💋" "🍓" "🍕" "🍉" "💐" "🌴" "🚀" "🛸" "🗽" "⛅" "🌈" "🔥" "⛄" "🐶" "🏅" "🦄" "🐤")
-        git add .
-        git commit -m "${Emoji[$[$RANDOM % ${#Emoji[@]}]]} Sync $(date +%Y-%m-%d" "%H:%M:%S)"
-        git push -f
+        git add cnip.rsc ct.rsc cu.rsc cmcc.rsc cnip6.rsc
+        git diff --quiet && git diff --staged --quiet || (git commit -m "${Emoji[$[$RANDOM % ${#Emoji[@]}]]} Sync $(date +'%Y-%m-%d %H:%M:%S')" && git push)
