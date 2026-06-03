@@ -21,7 +21,7 @@ jobs:
         git config --global user.name "github-actions[bot]"
         sudo timedatectl set-timezone "Asia/Shanghai"
      
-    - name: Download and Convert
+    - name: Combine
       run: |
         echo "/ip firewall address-list remove [find list=\"CNIP\"]" > cnip.rsc
         curl -sSL "https://china-operator-ip.yfgao.com/china.txt" | awk '/^[^#]/ && NF {print "/ip firewall address-list add list=CNIP address=" $1}' >> cnip.rsc
@@ -42,4 +42,11 @@ jobs:
       run: |
         Emoji=("🎉" "🤞" "✨" "🎁" "🎈" "🎄" "🎨" "💋" "🍓" "🍕" "🍉" "💐" "🌴" "🚀" "🛸" "🗽" "⛅" "🌈" "🔥" "⛄" "🐶" "🏅" "🦄" "🐤")
         git add cnip.rsc ct.rsc cu.rsc cmcc.rsc cnip6.rsc
-        git diff --quiet && git diff --staged --quiet || (git commit -m "${Emoji[$[$RANDOM % ${#Emoji[@]}]]} Sync $(date +'%Y-%m-%d %H:%M:%S')" && git push)
+        
+        # 核心修改：检查是否有文件变动
+        if git diff --staged --quiet; then
+          echo "数据已经是最新，无需更新。"
+        else
+          git commit -m "${Emoji[$[$RANDOM % ${#Emoji[@]}]]} Sync $(date +'%Y-%m-%d %H:%M:%S')"
+          git push
+        fi
