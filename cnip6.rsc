@@ -1382,6 +1382,7 @@ add address=2804:1e48:9001::/48 list=CNIP
 add address=2804:1e48:9002::/48 list=CNIP
 add address=2a01:e281:a400::/48 list=CNIP
 add address=2a01:e281:a410::/44 list=CNIP
+add address=2a01:f100:1f8::/48 list=CNIP
 add address=2a04:3e00:1002::/48 list=CNIP
 add address=2a04:f580:8010::/47 list=CNIP
 add address=2a04:f580:8090::/48 list=CNIP
