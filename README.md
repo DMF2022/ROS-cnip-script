@@ -2,7 +2,7 @@
 
 此列表代码搬运自[kiddin9/china_ip_list](https://github.com/kiddin9/china_ip_list)
 
-IP地址搬运自[gaoyifan/china-operator-ip](https://ispip.clang.cn/](https://github.com/gaoyifan/china-operator-ip)CNIP列表，加入ROS的导入命令制作而成。
+IP地址搬运自[gaoyifan/china-operator-ip](https://ispip.clang.cn/](https://github.com/gaoyifan/china-operator-ip) CNIP列表，加入ROS的导入命令制作而成。
 
 >自动修改为ROS命令脚本文件，不定期更新。
 
