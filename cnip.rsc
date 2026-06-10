@@ -709,7 +709,9 @@
 /ip firewall address-list add list=CNIP address=81.173.18.0/23
 /ip firewall address-list add list=CNIP address=81.173.20.0/22
 /ip firewall address-list add list=CNIP address=81.173.28.0/24
+/ip firewall address-list add list=CNIP address=82.22.31.0/24
 /ip firewall address-list add list=CNIP address=82.108.198.0/23
+/ip firewall address-list add list=CNIP address=82.109.96.0/23
 /ip firewall address-list add list=CNIP address=82.110.234.0/23
 /ip firewall address-list add list=CNIP address=82.156.0.0/15
 /ip firewall address-list add list=CNIP address=87.76.221.0/24
