@@ -300,7 +300,7 @@
 /ip firewall address-list add list=CMCC address=103.120.88.0/22
 /ip firewall address-list add list=CMCC address=103.120.196.0/22
 /ip firewall address-list add list=CMCC address=103.130.160.0/23
-/ip firewall address-list add list=CMCC address=103.142.82.0/24
+/ip firewall address-list add list=CMCC address=103.142.82.0/23
 /ip firewall address-list add list=CMCC address=103.143.228.0/23
 /ip firewall address-list add list=CMCC address=103.152.29.0/24
 /ip firewall address-list add list=CMCC address=103.154.30.0/23
