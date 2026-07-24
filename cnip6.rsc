@@ -73,6 +73,7 @@
 /ipv6 firewall address-list add list=CNIP address=2400:9380:90b1::/48
 /ipv6 firewall address-list add list=CNIP address=2400:9380:90b2::/47
 /ipv6 firewall address-list add list=CNIP address=2400:9380:90b4::/46
+/ipv6 firewall address-list add list=CNIP address=2400:9380:9109::/48
 /ipv6 firewall address-list add list=CNIP address=2400:9380:9121::/48
 /ipv6 firewall address-list add list=CNIP address=2400:9380:9220::/47
 /ipv6 firewall address-list add list=CNIP address=2400:9380:9250::/47
@@ -298,7 +299,6 @@
 /ipv6 firewall address-list add list=CNIP address=2404:bc0:4300::/44
 /ipv6 firewall address-list add list=CNIP address=2404:bc0:4400::/43
 /ipv6 firewall address-list add list=CNIP address=2404:bc0:4500::/43
-/ipv6 firewall address-list add list=CNIP address=2404:bc0:4620::/44
 /ipv6 firewall address-list add list=CNIP address=2404:bc0:4f00::/43
 /ipv6 firewall address-list add list=CNIP address=2404:1c80::/32
 /ipv6 firewall address-list add list=CNIP address=2404:3700::/48
@@ -549,7 +549,8 @@
 /ipv6 firewall address-list add list=CNIP address=2408:4014::/31
 /ipv6 firewall address-list add list=CNIP address=2408:4016:1::/48
 /ipv6 firewall address-list add list=CNIP address=2408:4016:2::/47
-/ipv6 firewall address-list add list=CNIP address=2408:4016:4::/46
+/ipv6 firewall address-list add list=CNIP address=2408:4016:5::/48
+/ipv6 firewall address-list add list=CNIP address=2408:4016:7::/48
 /ipv6 firewall address-list add list=CNIP address=2408:4016:8::/45
 /ipv6 firewall address-list add list=CNIP address=2408:4016:10::/44
 /ipv6 firewall address-list add list=CNIP address=2408:4016:20::/43
@@ -1317,6 +1318,7 @@
 /ipv6 firewall address-list add list=CNIP address=2602:f92a:a470::/48
 /ipv6 firewall address-list add list=CNIP address=2602:f92a:a47d::/48
 /ipv6 firewall address-list add list=CNIP address=2602:f92a:dead::/48
+/ipv6 firewall address-list add list=CNIP address=2602:f9ba:a8::/48
 /ipv6 firewall address-list add list=CNIP address=2602:f9ba:10c::/48
 /ipv6 firewall address-list add list=CNIP address=2602:f9f6:450::/48
 /ipv6 firewall address-list add list=CNIP address=2605:9d80:8001::/48
@@ -1377,6 +1379,7 @@
 /ipv6 firewall address-list add list=CNIP address=2a06:a005:e70::/44
 /ipv6 firewall address-list add list=CNIP address=2a06:a005:2040::/44
 /ipv6 firewall address-list add list=CNIP address=2a07:54c1:2200::/46
+/ipv6 firewall address-list add list=CNIP address=2a09:3f00:6100::/40
 /ipv6 firewall address-list add list=CNIP address=2a0a:6040:6c40::/44
 /ipv6 firewall address-list add list=CNIP address=2a0a:6040:c700::/42
 /ipv6 firewall address-list add list=CNIP address=2a0a:6040:c770::/44
@@ -1402,7 +1405,6 @@
 /ipv6 firewall address-list add list=CNIP address=2a0a:d685:300::/40
 /ipv6 firewall address-list add list=CNIP address=2a0a:d687:f001::/48
 /ipv6 firewall address-list add list=CNIP address=2a0a:d687:f004::/47
-/ipv6 firewall address-list add list=CNIP address=2a0a:d687:f007::/48
 /ipv6 firewall address-list add list=CNIP address=2a0a:d687:f008::/48
 /ipv6 firewall address-list add list=CNIP address=2a0b:4e07:b8::/47
 /ipv6 firewall address-list add list=CNIP address=2a0c:b641:571::/48
@@ -1429,7 +1431,6 @@
 /ipv6 firewall address-list add list=CNIP address=2a0e:b107:14a0::/44
 /ipv6 firewall address-list add list=CNIP address=2a0e:b107:1a40::/46
 /ipv6 firewall address-list add list=CNIP address=2a0f:1cc5:14::/46
-/ipv6 firewall address-list add list=CNIP address=2a0f:1cc5:1f::/48
 /ipv6 firewall address-list add list=CNIP address=2a0f:1cc5:110::/44
 /ipv6 firewall address-list add list=CNIP address=2a0f:1cc5:130::/44
 /ipv6 firewall address-list add list=CNIP address=2a0f:1cc5:140::/42
@@ -1512,7 +1513,8 @@
 /ipv6 firewall address-list add list=CNIP address=2a14:67c1:a128::/48
 /ipv6 firewall address-list add list=CNIP address=2a14:67c1:b100::/47
 /ipv6 firewall address-list add list=CNIP address=2a14:67c1:b110::/48
-/ipv6 firewall address-list add list=CNIP address=2a14:67c1:b130::/46
+/ipv6 firewall address-list add list=CNIP address=2a14:67c1:b130::/48
+/ipv6 firewall address-list add list=CNIP address=2a14:67c1:b132::/47
 /ipv6 firewall address-list add list=CNIP address=2a14:67c1:b134::/48
 /ipv6 firewall address-list add list=CNIP address=2a14:67c1:b136::/48
 /ipv6 firewall address-list add list=CNIP address=2a14:67c1:b142::/47
@@ -1587,7 +1589,7 @@
 /ipv6 firewall address-list add list=CNIP address=2a14:7583:f743::/48
 /ipv6 firewall address-list add list=CNIP address=2a14:7583:f744::/48
 /ipv6 firewall address-list add list=CNIP address=2a14:7583:f764::/48
-/ipv6 firewall address-list add list=CNIP address=2a14:7586:6100::/48
+/ipv6 firewall address-list add list=CNIP address=2a14:7586:6100::/47
 /ipv6 firewall address-list add list=CNIP address=2a14:7586:6103::/48
 /ipv6 firewall address-list add list=CNIP address=2a14:7586:6104::/47
 /ipv6 firewall address-list add list=CNIP address=2a14:7586:6106::/48
