@@ -657,7 +657,12 @@
 /ip firewall address-list add list=CMCC address=120.133.50.0/24
 /ip firewall address-list add list=CMCC address=120.133.52.0/22
 /ip firewall address-list add list=CMCC address=120.133.56.0/21
-/ip firewall address-list add list=CMCC address=120.133.64.0/18
+/ip firewall address-list add list=CMCC address=120.133.64.0/22
+/ip firewall address-list add list=CMCC address=120.133.68.0/23
+/ip firewall address-list add list=CMCC address=120.133.71.0/24
+/ip firewall address-list add list=CMCC address=120.133.72.0/21
+/ip firewall address-list add list=CMCC address=120.133.80.0/20
+/ip firewall address-list add list=CMCC address=120.133.96.0/19
 /ip firewall address-list add list=CMCC address=120.133.128.0/20
 /ip firewall address-list add list=CMCC address=120.133.148.0/22
 /ip firewall address-list add list=CMCC address=120.133.152.0/21
