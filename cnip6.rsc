@@ -552,7 +552,7 @@
 /ipv6 firewall address-list add list=CNIP address=2408:4014::/31
 /ipv6 firewall address-list add list=CNIP address=2408:4016:1::/48
 /ipv6 firewall address-list add list=CNIP address=2408:4016:2::/47
-/ipv6 firewall address-list add list=CNIP address=2408:4016:4::/46
+/ipv6 firewall address-list add list=CNIP address=2408:4016:4::/48
 /ipv6 firewall address-list add list=CNIP address=2408:4016:8::/45
 /ipv6 firewall address-list add list=CNIP address=2408:4016:10::/44
 /ipv6 firewall address-list add list=CNIP address=2408:4016:20::/43
