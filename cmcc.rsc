@@ -100,7 +100,6 @@
 /ip firewall address-list add list=CMCC address=43.248.96.0/22
 /ip firewall address-list add list=CMCC address=43.248.100.0/24
 /ip firewall address-list add list=CMCC address=43.248.102.0/24
-/ip firewall address-list add list=CMCC address=43.248.119.0/24
 /ip firewall address-list add list=CMCC address=43.248.128.0/24
 /ip firewall address-list add list=CMCC address=43.248.130.0/23
 /ip firewall address-list add list=CMCC address=43.248.132.0/24
@@ -128,6 +127,7 @@
 /ip firewall address-list add list=CMCC address=43.255.200.0/22
 /ip firewall address-list add list=CMCC address=43.255.228.0/22
 /ip firewall address-list add list=CMCC address=45.40.216.0/21
+/ip firewall address-list add list=CMCC address=45.113.20.0/22
 /ip firewall address-list add list=CMCC address=45.113.200.0/23
 /ip firewall address-list add list=CMCC address=45.113.202.0/24
 /ip firewall address-list add list=CMCC address=45.116.32.0/22
@@ -305,7 +305,8 @@
 /ip firewall address-list add list=CMCC address=103.118.61.0/24
 /ip firewall address-list add list=CMCC address=103.118.63.0/24
 /ip firewall address-list add list=CMCC address=103.118.173.0/24
-/ip firewall address-list add list=CMCC address=103.120.88.0/22
+/ip firewall address-list add list=CMCC address=103.120.89.0/24
+/ip firewall address-list add list=CMCC address=103.120.90.0/23
 /ip firewall address-list add list=CMCC address=103.120.196.0/22
 /ip firewall address-list add list=CMCC address=103.130.160.0/23
 /ip firewall address-list add list=CMCC address=103.143.228.0/23
@@ -577,8 +578,7 @@
 /ip firewall address-list add list=CMCC address=118.196.0.0/19
 /ip firewall address-list add list=CMCC address=118.196.32.0/20
 /ip firewall address-list add list=CMCC address=118.196.48.0/21
-/ip firewall address-list add list=CMCC address=118.196.56.0/23
-/ip firewall address-list add list=CMCC address=118.196.59.0/24
+/ip firewall address-list add list=CMCC address=118.196.56.0/22
 /ip firewall address-list add list=CMCC address=118.196.61.0/24
 /ip firewall address-list add list=CMCC address=118.196.62.0/23
 /ip firewall address-list add list=CMCC address=118.196.64.0/18
@@ -659,11 +659,7 @@
 /ip firewall address-list add list=CMCC address=120.132.242.0/23
 /ip firewall address-list add list=CMCC address=120.132.244.0/22
 /ip firewall address-list add list=CMCC address=120.132.248.0/21
-/ip firewall address-list add list=CMCC address=120.133.0.0/20
-/ip firewall address-list add list=CMCC address=120.133.16.0/21
-/ip firewall address-list add list=CMCC address=120.133.24.0/22
-/ip firewall address-list add list=CMCC address=120.133.29.0/24
-/ip firewall address-list add list=CMCC address=120.133.30.0/23
+/ip firewall address-list add list=CMCC address=120.133.0.0/19
 /ip firewall address-list add list=CMCC address=120.133.32.0/20
 /ip firewall address-list add list=CMCC address=120.133.48.0/23
 /ip firewall address-list add list=CMCC address=120.133.50.0/24
@@ -953,7 +949,9 @@
 /ip firewall address-list add list=CMCC address=203.86.60.0/23
 /ip firewall address-list add list=CMCC address=203.86.62.0/24
 /ip firewall address-list add list=CMCC address=203.107.60.0/22
-/ip firewall address-list add list=CMCC address=203.107.80.0/21
+/ip firewall address-list add list=CMCC address=203.107.80.0/24
+/ip firewall address-list add list=CMCC address=203.107.82.0/23
+/ip firewall address-list add list=CMCC address=203.107.84.0/22
 /ip firewall address-list add list=CMCC address=203.107.112.0/24
 /ip firewall address-list add list=CMCC address=203.107.116.0/22
 /ip firewall address-list add list=CMCC address=203.130.32.0/22
@@ -993,7 +991,6 @@
 /ip firewall address-list add list=CMCC address=211.136.0.0/13
 /ip firewall address-list add list=CMCC address=211.144.114.0/23
 /ip firewall address-list add list=CMCC address=211.147.4.0/22
-/ip firewall address-list add list=CMCC address=211.148.224.0/19
 /ip firewall address-list add list=CMCC address=211.151.0.0/19
 /ip firewall address-list add list=CMCC address=211.151.32.0/21
 /ip firewall address-list add list=CMCC address=211.151.40.0/22
