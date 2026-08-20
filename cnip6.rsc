@@ -280,6 +280,8 @@
 /ipv6 firewall address-list add list=CNIP address=2403:5c80::/48
 /ipv6 firewall address-list add list=CNIP address=2403:6740::/48
 /ipv6 firewall address-list add list=CNIP address=2403:6a00::/32
+/ipv6 firewall address-list add list=CNIP address=2403:7580::/44
+/ipv6 firewall address-list add list=CNIP address=2403:7580:10::/46
 /ipv6 firewall address-list add list=CNIP address=2403:8080:101::/48
 /ipv6 firewall address-list add list=CNIP address=2403:8c00::/32
 /ipv6 firewall address-list add list=CNIP address=2403:9b00:2000::/48
