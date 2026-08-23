@@ -8,7 +8,6 @@
 /ipv6 firewall address-list add list=CNIP address=2001:daa:1::/48
 /ipv6 firewall address-list add list=CNIP address=2001:daa:2::/47
 /ipv6 firewall address-list add list=CNIP address=2001:daa:4::/47
-/ipv6 firewall address-list add list=CNIP address=2001:daa:6::/48
 /ipv6 firewall address-list add list=CNIP address=2001:daa:9::/48
 /ipv6 firewall address-list add list=CNIP address=2001:dc7::/45
 /ipv6 firewall address-list add list=CNIP address=2001:dc7:9::/48
@@ -201,6 +200,7 @@
 /ipv6 firewall address-list add list=CNIP address=2402:1440::/32
 /ipv6 firewall address-list add list=CNIP address=2402:18a0::/32
 /ipv6 firewall address-list add list=CNIP address=2402:2000::/32
+/ipv6 firewall address-list add list=CNIP address=2402:2e60::/39
 /ipv6 firewall address-list add list=CNIP address=2402:34e0::/32
 /ipv6 firewall address-list add list=CNIP address=2402:36e0::/44
 /ipv6 firewall address-list add list=CNIP address=2402:3f80:1400::/40
