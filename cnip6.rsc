@@ -3304,7 +3304,6 @@
 /ipv6 firewall address-list add list=CNIP address=2a0a:d682::/33
 /ipv6 firewall address-list add list=CNIP address=2a0a:d682:8000::/34
 /ipv6 firewall address-list add list=CNIP address=2a0a:d682:c000::/36
-/ipv6 firewall address-list add list=CNIP address=2a0a:d682:e000::/35
 /ipv6 firewall address-list add list=CNIP address=2a0a:d683::/32
 /ipv6 firewall address-list add list=CNIP address=2a0a:d684::/32
 /ipv6 firewall address-list add list=CNIP address=2a0a:d685::/40
