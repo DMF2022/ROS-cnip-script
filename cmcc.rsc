@@ -867,7 +867,6 @@
 /ip firewall address-list add list=CMCC address=163.53.60.0/24
 /ip firewall address-list add list=CMCC address=163.53.88.0/21
 /ip firewall address-list add list=CMCC address=163.53.128.0/22
-/ip firewall address-list add list=CMCC address=163.128.255.0/24
 /ip firewall address-list add list=CMCC address=167.189.0.0/16
 /ip firewall address-list add list=CMCC address=167.220.246.0/23
 /ip firewall address-list add list=CMCC address=175.25.16.0/21
@@ -976,7 +975,12 @@
 /ip firewall address-list add list=CMCC address=211.151.44.0/23
 /ip firewall address-list add list=CMCC address=211.151.48.0/20
 /ip firewall address-list add list=CMCC address=211.151.64.0/18
-/ip firewall address-list add list=CMCC address=211.151.128.0/18
+/ip firewall address-list add list=CMCC address=211.151.128.0/19
+/ip firewall address-list add list=CMCC address=211.151.160.0/21
+/ip firewall address-list add list=CMCC address=211.151.168.0/23
+/ip firewall address-list add list=CMCC address=211.151.170.0/24
+/ip firewall address-list add list=CMCC address=211.151.172.0/22
+/ip firewall address-list add list=CMCC address=211.151.176.0/20
 /ip firewall address-list add list=CMCC address=211.151.192.0/20
 /ip firewall address-list add list=CMCC address=211.151.208.0/21
 /ip firewall address-list add list=CMCC address=211.151.216.0/23
@@ -1040,7 +1044,6 @@
 /ip firewall address-list add list=CMCC address=218.240.166.0/24
 /ip firewall address-list add list=CMCC address=218.240.169.0/24
 /ip firewall address-list add list=CMCC address=218.240.170.0/23
-/ip firewall address-list add list=CMCC address=218.240.176.0/24
 /ip firewall address-list add list=CMCC address=218.240.180.0/23
 /ip firewall address-list add list=CMCC address=218.240.183.0/24
 /ip firewall address-list add list=CMCC address=218.241.16.0/22
