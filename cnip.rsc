@@ -947,6 +947,7 @@
 /ip firewall address-list add list=CNIP address=61.29.128.0/18
 /ip firewall address-list add list=CNIP address=61.29.192.0/19
 /ip firewall address-list add list=CNIP address=61.29.224.0/20
+/ip firewall address-list add list=CNIP address=61.29.251.0/24
 /ip firewall address-list add list=CNIP address=61.45.128.0/18
 /ip firewall address-list add list=CNIP address=61.45.224.0/20
 /ip firewall address-list add list=CNIP address=61.47.128.0/18
@@ -3222,7 +3223,10 @@
 /ip firewall address-list add list=CNIP address=114.112.228.0/24
 /ip firewall address-list add list=CNIP address=114.112.230.0/23
 /ip firewall address-list add list=CNIP address=114.112.234.0/23
-/ip firewall address-list add list=CNIP address=114.112.240.0/20
+/ip firewall address-list add list=CNIP address=114.112.240.0/21
+/ip firewall address-list add list=CNIP address=114.112.248.0/22
+/ip firewall address-list add list=CNIP address=114.112.252.0/23
+/ip firewall address-list add list=CNIP address=114.112.255.0/24
 /ip firewall address-list add list=CNIP address=114.113.0.0/17
 /ip firewall address-list add list=CNIP address=114.113.128.0/21
 /ip firewall address-list add list=CNIP address=114.113.140.0/22
@@ -5762,9 +5766,6 @@
 /ip firewall address-list add list=CNIP address=203.86.254.0/23
 /ip firewall address-list add list=CNIP address=203.88.32.0/19
 /ip firewall address-list add list=CNIP address=203.88.192.0/19
-/ip firewall address-list add list=CNIP address=203.89.8.0/23
-/ip firewall address-list add list=CNIP address=203.89.13.0/24
-/ip firewall address-list add list=CNIP address=203.89.14.0/23
 /ip firewall address-list add list=CNIP address=203.89.133.0/24
 /ip firewall address-list add list=CNIP address=203.89.136.0/22
 /ip firewall address-list add list=CNIP address=203.89.144.0/24
