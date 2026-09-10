@@ -2585,7 +2585,6 @@
 /ipv6 firewall address-list add list=CNIP address=2406:840:fe28::/45
 /ipv6 firewall address-list add list=CNIP address=2406:840:fe30::/44
 /ipv6 firewall address-list add list=CNIP address=2406:840:fe40::/44
-/ipv6 firewall address-list add list=CNIP address=2406:840:fe51::/48
 /ipv6 firewall address-list add list=CNIP address=2406:840:fe52::/47
 /ipv6 firewall address-list add list=CNIP address=2406:840:fe54::/46
 /ipv6 firewall address-list add list=CNIP address=2406:840:fe58::/45
