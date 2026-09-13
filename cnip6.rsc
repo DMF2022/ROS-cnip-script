@@ -1815,7 +1815,9 @@
 /ipv6 firewall address-list add list=CNIP address=2405:84c0:8019::/48
 /ipv6 firewall address-list add list=CNIP address=2405:84c0:801c::/46
 /ipv6 firewall address-list add list=CNIP address=2405:84c0:8020::/47
-/ipv6 firewall address-list add list=CNIP address=2405:84c0:8036::/47
+/ipv6 firewall address-list add list=CNIP address=2405:84c0:8031::/48
+/ipv6 firewall address-list add list=CNIP address=2405:84c0:8032::/47
+/ipv6 firewall address-list add list=CNIP address=2405:84c0:8034::/46
 /ipv6 firewall address-list add list=CNIP address=2405:84c0:8038::/46
 /ipv6 firewall address-list add list=CNIP address=2405:84c0:803c::/47
 /ipv6 firewall address-list add list=CNIP address=2405:84c0:803e::/48
