@@ -1124,12 +1124,7 @@
 /ipv6 firewall address-list add list=CNIP address=2403:e80::/32
 /ipv6 firewall address-list add list=CNIP address=2403:f00::/32
 /ipv6 firewall address-list add list=CNIP address=2403:f80::/32
-/ipv6 firewall address-list add list=CNIP address=2403:fc0:400::/38
-/ipv6 firewall address-list add list=CNIP address=2403:fc0:c00::/38
-/ipv6 firewall address-list add list=CNIP address=2403:fc0:1000::/36
-/ipv6 firewall address-list add list=CNIP address=2403:fc0:2000::/35
-/ipv6 firewall address-list add list=CNIP address=2403:fc0:4000::/34
-/ipv6 firewall address-list add list=CNIP address=2403:fc0:8000::/33
+/ipv6 firewall address-list add list=CNIP address=2403:fc0::/32
 /ipv6 firewall address-list add list=CNIP address=2403:1180::/32
 /ipv6 firewall address-list add list=CNIP address=2403:1340::/32
 /ipv6 firewall address-list add list=CNIP address=2403:1440::/32
@@ -2018,7 +2013,7 @@
 /ipv6 firewall address-list add list=CNIP address=2406:840:808::/45
 /ipv6 firewall address-list add list=CNIP address=2406:840:810::/44
 /ipv6 firewall address-list add list=CNIP address=2406:840:820::/43
-/ipv6 firewall address-list add list=CNIP address=2406:840:840::/48
+/ipv6 firewall address-list add list=CNIP address=2406:840:840::/47
 /ipv6 firewall address-list add list=CNIP address=2406:840:843::/48
 /ipv6 firewall address-list add list=CNIP address=2406:840:844::/46
 /ipv6 firewall address-list add list=CNIP address=2406:840:848::/45
@@ -2245,7 +2240,7 @@
 /ipv6 firewall address-list add list=CNIP address=2406:840:9818::/47
 /ipv6 firewall address-list add list=CNIP address=2406:840:981b::/48
 /ipv6 firewall address-list add list=CNIP address=2406:840:9820::/43
-/ipv6 firewall address-list add list=CNIP address=2406:840:9850::/44
+/ipv6 firewall address-list add list=CNIP address=2406:840:9840::/43
 /ipv6 firewall address-list add list=CNIP address=2406:840:9860::/47
 /ipv6 firewall address-list add list=CNIP address=2406:840:9865::/48
 /ipv6 firewall address-list add list=CNIP address=2406:840:9866::/47
