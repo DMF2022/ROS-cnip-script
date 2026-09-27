@@ -1,20 +1,28 @@
 # ROS-cnip-script
 
-此列表代码搬运自[kiddin9/china_ip_list](https://github.com/kiddin9/china_ip_list)
+用于生成 MikroTik RouterOS 可直接导入的中国大陆 IP 地址列表。
 
-IP地址搬运自[gaoyifan/china-operator-ip](https://github.com/gaoyifan/china-operator-ip)CNIP列表，加入ROS的导入命令制作而成。
+IPv4 / IPv6 地址数据来自 **苍狼山庄 IPIP.NET 数据库**：
 
->自动修改为ROS命令脚本文件，不定期更新。
+https://ispip.clang.cn/
 
->加了一条在导入前清空名为“CNIP”列表的命令，避免出现新旧列表交叉冲突。
+GitHub Actions 每日自动获取最新 IP 列表，并转换为 RouterOS `.rsc` 脚本文件。
 
->加了一条导入列表时关闭日志输出的指令，避免日志刷屏。
+目前生成以下列表：
 
-附：ROS导入脚本
+* `cnip.rsc`：中国大陆全部 IPv4
+* `ct.rsc`：中国电信 IPv4
+* `cu.rsc`：中国联通 IPv4
+* `cmcc.rsc`：中国移动 IPv4
+* `cnip6.rsc`：中国大陆 IPv6
 
+同时会在导入前清空对应的旧地址列表，避免新旧 IP 数据交叉。
 
-###### 在/System Script下添加如下脚本内容
-```
+## ROS 导入
+
+在 `/System → Scripts` 下添加以下脚本：
+
+```rsc
 /tool fetch url=https://cdn.jsdelivr.net/gh/DMF2022/ROS-cnip-script/cnip.rsc
 /system logging disable 0
 /import cnip.rsc
@@ -23,4 +31,35 @@ IP地址搬运自[gaoyifan/china-operator-ip](https://github.com/gaoyifan/china-
 /file remove [find name="cnip.rsc"]
 :log info ("CNIP列表更新:"."$CNIP"."条规则")
 ```
-建议手动执行，也可以在/System Scheduler下添加一个脚本定时
+
+手动执行该脚本即可更新 `CNIP` 地址列表。
+
+也可以在 `/System → Scheduler` 中设置定时执行。
+
+## 数据源
+
+中国大陆 IPv4：
+
+https://ispip.clang.cn/all_cn.txt
+
+中国大陆 IPv6：
+
+https://ispip.clang.cn/all_cn_ipv6.txt
+
+中国电信：
+
+https://ispip.clang.cn/chinatelecom.txt
+
+中国联通：
+
+https://ispip.clang.cn/unicom_cnc.txt
+
+中国移动：
+
+https://ispip.clang.cn/cmcc.txt
+
+## 说明
+
+本项目仅负责将 IP 数据转换成 RouterOS 地址列表导入脚本，IP 数据本身由上游数据源提供。
+
+GitHub Actions 会自动检查数据变化，只有列表发生变化时才提交更新。
