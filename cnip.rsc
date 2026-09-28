@@ -1571,7 +1571,7 @@
 /ip firewall address-list add list=CNIP address=103.251.96.0/22
 /ip firewall address-list add list=CNIP address=103.251.124.0/22
 /ip firewall address-list add list=CNIP address=103.251.160.0/22
-/ip firewall address-list add list=CNIP address=103.251.205.0/24
+/ip firewall address-list add list=CNIP address=103.251.204.0/23
 /ip firewall address-list add list=CNIP address=103.251.207.0/24
 /ip firewall address-list add list=CNIP address=103.251.240.0/22
 /ip firewall address-list add list=CNIP address=103.252.36.0/22
