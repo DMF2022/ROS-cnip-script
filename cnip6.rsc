@@ -402,10 +402,7 @@
 /ipv6 firewall address-list add list=CNIP address=2404:2280:265::/48
 /ipv6 firewall address-list add list=CNIP address=2404:2280:266::/47
 /ipv6 firewall address-list add list=CNIP address=2404:2280:268::/45
-/ipv6 firewall address-list add list=CNIP address=2404:2280:270::/45
-/ipv6 firewall address-list add list=CNIP address=2404:2280:278::/47
-/ipv6 firewall address-list add list=CNIP address=2404:2280:27b::/48
-/ipv6 firewall address-list add list=CNIP address=2404:2280:27c::/46
+/ipv6 firewall address-list add list=CNIP address=2404:2280:270::/44
 /ipv6 firewall address-list add list=CNIP address=2404:2280:282::/47
 /ipv6 firewall address-list add list=CNIP address=2404:2280:284::/47
 /ipv6 firewall address-list add list=CNIP address=2404:2280:288::/46
