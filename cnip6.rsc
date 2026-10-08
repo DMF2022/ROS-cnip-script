@@ -1565,7 +1565,7 @@
 /ipv6 firewall address-list add list=CNIP address=2a0f:6280:1400::/43
 /ipv6 firewall address-list add list=CNIP address=2a0f:6280:1430::/44
 /ipv6 firewall address-list add list=CNIP address=2a0f:6280:1440::/42
-/ipv6 firewall address-list add list=CNIP address=2a0f:6280:1480::/44
+/ipv6 firewall address-list add list=CNIP address=2a0f:6280:1480::/43
 /ipv6 firewall address-list add list=CNIP address=2a0f:6281::/32
 /ipv6 firewall address-list add list=CNIP address=2a0f:6284:4c00::/44
 /ipv6 firewall address-list add list=CNIP address=2a0f:6284:4c20::/44
