@@ -99,7 +99,6 @@
 /ip firewall address-list add list=CU address=43.247.248.0/22
 /ip firewall address-list add list=CU address=43.248.48.0/22
 /ip firewall address-list add list=CU address=43.248.108.0/22
-/ip firewall address-list add list=CU address=43.248.184.0/21
 /ip firewall address-list add list=CU address=43.248.192.0/20
 /ip firewall address-list add list=CU address=43.248.232.0/23
 /ip firewall address-list add list=CU address=43.248.244.0/22
@@ -425,7 +424,6 @@
 /ip firewall address-list add list=CU address=103.202.144.0/22
 /ip firewall address-list add list=CU address=103.205.188.0/22
 /ip firewall address-list add list=CU address=103.205.192.0/22
-/ip firewall address-list add list=CU address=103.205.252.0/22
 /ip firewall address-list add list=CU address=103.207.228.0/22
 /ip firewall address-list add list=CU address=103.210.160.0/22
 /ip firewall address-list add list=CU address=103.211.44.0/22
@@ -724,6 +722,7 @@
 /ip firewall address-list add list=CU address=119.62.0.0/16
 /ip firewall address-list add list=CU address=119.80.0.0/21
 /ip firewall address-list add list=CU address=119.80.8.0/22
+/ip firewall address-list add list=CU address=119.80.56.0/24
 /ip firewall address-list add list=CU address=119.80.160.0/23
 /ip firewall address-list add list=CU address=119.80.162.0/24
 /ip firewall address-list add list=CU address=119.88.128.0/17
