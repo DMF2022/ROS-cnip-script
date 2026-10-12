@@ -812,6 +812,7 @@
 /ip firewall address-list add list=CNIP address=79.133.176.0/24
 /ip firewall address-list add list=CNIP address=79.175.67.0/24
 /ip firewall address-list add list=CNIP address=79.175.118.0/24
+/ip firewall address-list add list=CNIP address=79.180.180.0/24
 /ip firewall address-list add list=CNIP address=81.68.0.0/14
 /ip firewall address-list add list=CNIP address=81.173.18.0/23
 /ip firewall address-list add list=CNIP address=81.173.20.0/22
@@ -2586,7 +2587,6 @@
 /ip firewall address-list add list=CNIP address=123.49.238.0/23
 /ip firewall address-list add list=CNIP address=123.49.240.0/24
 /ip firewall address-list add list=CNIP address=123.49.242.0/23
-/ip firewall address-list add list=CNIP address=123.49.244.0/23
 /ip firewall address-list add list=CNIP address=123.52.0.0/14
 /ip firewall address-list add list=CNIP address=123.56.0.0/15
 /ip firewall address-list add list=CNIP address=123.58.0.0/19
@@ -3062,7 +3062,7 @@
 /ip firewall address-list add list=CNIP address=163.181.150.0/24
 /ip firewall address-list add list=CNIP address=163.181.152.0/21
 /ip firewall address-list add list=CNIP address=163.181.160.0/24
-/ip firewall address-list add list=CNIP address=163.181.162.0/23
+/ip firewall address-list add list=CNIP address=163.181.163.0/24
 /ip firewall address-list add list=CNIP address=163.181.164.0/22
 /ip firewall address-list add list=CNIP address=163.181.168.0/21
 /ip firewall address-list add list=CNIP address=163.181.176.0/21
@@ -3926,8 +3926,7 @@
 /ip firewall address-list add list=CNIP address=211.155.96.0/19
 /ip firewall address-list add list=CNIP address=211.155.128.0/19
 /ip firewall address-list add list=CNIP address=211.155.160.0/20
-/ip firewall address-list add list=CNIP address=211.155.176.0/22
-/ip firewall address-list add list=CNIP address=211.155.184.0/21
+/ip firewall address-list add list=CNIP address=211.155.176.0/23
 /ip firewall address-list add list=CNIP address=211.155.224.0/21
 /ip firewall address-list add list=CNIP address=211.155.232.0/22
 /ip firewall address-list add list=CNIP address=211.155.236.0/24
