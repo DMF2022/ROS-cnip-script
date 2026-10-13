@@ -1722,7 +1722,7 @@
 /ip firewall address-list add list=CT address=219.239.88.0/21
 /ip firewall address-list add list=CT address=220.113.96.0/21
 /ip firewall address-list add list=CT address=220.154.0.0/20
-/ip firewall address-list add list=CT address=220.154.16.0/22
+/ip firewall address-list add list=CT address=220.154.16.0/21
 /ip firewall address-list add list=CT address=220.154.64.0/20
 /ip firewall address-list add list=CT address=220.154.80.0/22
 /ip firewall address-list add list=CT address=220.154.116.0/23
