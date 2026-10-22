@@ -334,7 +334,6 @@
 /ip firewall address-list add list=CU address=103.45.72.0/21
 /ip firewall address-list add list=CU address=103.45.160.0/23
 /ip firewall address-list add list=CU address=103.45.169.0/24
-/ip firewall address-list add list=CU address=103.45.171.0/24
 /ip firewall address-list add list=CU address=103.46.168.0/22
 /ip firewall address-list add list=CU address=103.47.48.0/22
 /ip firewall address-list add list=CU address=103.53.208.0/24
