@@ -393,6 +393,7 @@
 /ip firewall address-list add list=CT address=103.45.170.0/24
 /ip firewall address-list add list=CT address=103.45.172.0/22
 /ip firewall address-list add list=CT address=103.45.176.0/20
+/ip firewall address-list add list=CT address=103.45.226.0/23
 /ip firewall address-list add list=CT address=103.45.248.0/22
 /ip firewall address-list add list=CT address=103.46.168.0/24
 /ip firewall address-list add list=CT address=103.47.80.0/22
