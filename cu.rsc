@@ -526,7 +526,6 @@
 /ip firewall address-list add list=CU address=111.160.0.0/13
 /ip firewall address-list add list=CU address=111.192.0.0/12
 /ip firewall address-list add list=CU address=111.208.121.0/24
-/ip firewall address-list add list=CU address=111.223.12.0/22
 /ip firewall address-list add list=CU address=112.64.0.0/15
 /ip firewall address-list add list=CU address=112.73.96.0/19
 /ip firewall address-list add list=CU address=112.80.0.0/12
