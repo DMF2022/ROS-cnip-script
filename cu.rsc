@@ -983,6 +983,7 @@
 /ip firewall address-list add list=CU address=182.112.0.0/12
 /ip firewall address-list add list=CU address=182.175.224.0/24
 /ip firewall address-list add list=CU address=182.175.240.0/22
+/ip firewall address-list add list=CU address=182.255.60.0/22
 /ip firewall address-list add list=CU address=183.92.0.0/14
 /ip firewall address-list add list=CU address=183.184.0.0/13
 /ip firewall address-list add list=CU address=192.163.11.0/24
