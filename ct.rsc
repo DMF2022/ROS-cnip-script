@@ -482,6 +482,7 @@
 /ip firewall address-list add list=CT address=103.131.138.0/23
 /ip firewall address-list add list=CT address=103.135.236.0/24
 /ip firewall address-list add list=CT address=103.139.212.0/23
+/ip firewall address-list add list=CT address=103.142.82.0/24
 /ip firewall address-list add list=CT address=103.143.16.0/22
 /ip firewall address-list add list=CT address=103.144.158.0/24
 /ip firewall address-list add list=CT address=103.147.124.0/24
@@ -1135,6 +1136,7 @@
 /ip firewall address-list add list=CT address=125.254.128.0/19
 /ip firewall address-list add list=CT address=125.254.168.0/21
 /ip firewall address-list add list=CT address=125.254.176.0/21
+/ip firewall address-list add list=CT address=134.49.242.0/23
 /ip firewall address-list add list=CT address=139.5.60.0/22
 /ip firewall address-list add list=CT address=139.9.144.0/20
 /ip firewall address-list add list=CT address=139.9.224.0/20
